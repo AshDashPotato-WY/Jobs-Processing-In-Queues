@@ -1,0 +1,1241 @@
+Time 1:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Idle Time:1; CPU 3 Idle Time:1; CPU 4 Idle Time:1
+Time 2:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Idle Time:2; CPU 3 Idle Time:2; CPU 4 Idle Time:2
+Time 3:  Queue: Empty; CPU 1 Idle Time:3; CPU 2 Idle Time:3; CPU 3 Idle Time:3; CPU 4 Idle Time:3
+Time 4:  Queue: Empty; CPU 1 Idle Time:4; CPU 2 Idle Time:4; CPU 3 Idle Time:4; CPU 4 Idle Time:4
+Time 5:  Arrival: Overall Job:1, Job A:1, Processing Time 5
+Time 5:- Begin Processing Job:1, Job A:1 in CPU 1
+Time 5:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:5; CPU 3 Idle Time:5; CPU 4 Idle Time:5
+Time 6:  Arrival: Overall Job:1, Job B:1, Processing Time 5
+Time 6:- Begin Processing Job:2, Job B:1 in CPU 2
+Time 6:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:0; CPU 3 Idle Time:6; CPU 4 Idle Time:6
+Time 7:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:1; CPU 3 Idle Time:7; CPU 4 Idle Time:7
+Time 8:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:2; CPU 3 Idle Time:8; CPU 4 Idle Time:8
+Time 9:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:3; CPU 3 Idle Time:9; CPU 4 Idle Time:9
+Time 10:  Complete Processing Job:1, Job A:1
+Time 10:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:4; CPU 3 Idle Time:10; CPU 4 Idle Time:10
+Time 11:  Arrival: Overall Job:1, Job A:2, Processing Time 4
+Time 11:- Begin Processing Job:3, Job A:2 in CPU 1
+Time 11:  Complete Processing Job:2, Job B:1
+Time 11:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:0; CPU 3 Idle Time:11; CPU 4 Idle Time:11
+Time 12:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:1; CPU 3 Idle Time:12; CPU 4 Idle Time:12
+Time 13:  Arrival: Overall Job:1, Job B:2, Processing Time 6
+Time 13:- Begin Processing Job:4, Job B:2 in CPU 2
+Time 13:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:0; CPU 3 Idle Time:13; CPU 4 Idle Time:13
+Time 14:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:1; CPU 3 Idle Time:14; CPU 4 Idle Time:14
+Time 15:  Complete Processing Job:3, Job A:2
+Time 15:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Idle Time:15; CPU 4 Idle Time:15
+Time 16:  Arrival: Overall Job:1, Job D:1, Processing Time 15
+Time 16:  Arrival: Overall Job:2, Job A:3, Processing Time 3
+Time 16:- Begin Processing Job:6, Job D:1 in CPU 1
+Time 16:- Begin Processing Job:6, Job A:3 in CPU 3
+Time 16:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:3; CPU 3 Run Time:0; CPU 4 Idle Time:16
+Time 17:  Arrival: Overall Job:1, Job C:1, Processing Time 8
+Time 17:- Begin Processing Job:7, Job C:1 in CPU 4
+Time 17:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:4; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 18:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:5; CPU 3 Run Time:2; CPU 4 Run Time:1
+Time 19:  Complete Processing Job:4, Job B:2
+Time 19:  Complete Processing Job:6, Job A:3
+Time 19:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Idle Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:2
+Time 20:  Arrival: Overall Job:1, Job B:3, Processing Time 7
+Time 20:  Arrival: Overall Job:2, Job A:4, Processing Time 4
+Time 20:- Begin Processing Job:9, Job B:3 in CPU 2
+Time 20:- Begin Processing Job:9, Job A:4 in CPU 3
+Time 20:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:0; CPU 3 Run Time:0; CPU 4 Run Time:3
+Time 21:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:1; CPU 3 Run Time:1; CPU 4 Run Time:4
+Time 22:  Arrival: Overall Job:1, Job C:2, Processing Time 7
+Time 22:  Queue: 1 Job; CPU 1 Run Time:6; CPU 2 Run Time:2; CPU 3 Run Time:2; CPU 4 Run Time:5
+Time 23:  Queue: 1 Job; CPU 1 Run Time:7; CPU 2 Run Time:3; CPU 3 Run Time:3; CPU 4 Run Time:6
+Time 24:  Complete Processing Job:9, Job A:4
+Time 24:  Queue: 1 Job; CPU 1 Run Time:8; CPU 2 Run Time:4; CPU 3 Idle Time:0; CPU 4 Run Time:7
+Time 25:- Begin Processing Job:10, Job C:2 in CPU 3
+Time 25:  Complete Processing Job:7, Job C:1
+Time 25:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Run Time:5; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 26:  Arrival: Overall Job:1, Job B:4, Processing Time 3
+Time 26:  Arrival: Overall Job:2, Job A:5, Processing Time 5
+Time 26:- Begin Processing Job:12, Job B:4 in CPU 4
+Time 26:  Queue: 1 Job; CPU 1 Run Time:10; CPU 2 Run Time:6; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 27:  Complete Processing Job:8, Job B:3
+Time 27:  Queue: 1 Job; CPU 1 Run Time:11; CPU 2 Idle Time:0; CPU 3 Run Time:2; CPU 4 Run Time:1
+Time 28:- Begin Processing Job:12, Job A:5 in CPU 2
+Time 28:  Queue: Empty; CPU 1 Run Time:12; CPU 2 Run Time:0; CPU 3 Run Time:3; CPU 4 Run Time:2
+Time 29:  Complete Processing Job:11, Job B:4
+Time 29:  Queue: Empty; CPU 1 Run Time:13; CPU 2 Run Time:1; CPU 3 Run Time:4; CPU 4 Idle Time:0
+Time 30:  Arrival: Overall Job:1, Job A:6, Processing Time 1
+Time 30:- Begin Processing Job:13, Job A:6 in CPU 4
+Time 30:  Queue: Empty; CPU 1 Run Time:14; CPU 2 Run Time:2; CPU 3 Run Time:5; CPU 4 Run Time:0
+Time 31:  Arrival: Overall Job:1, Job D:2, Processing Time 13
+Time 31:  Complete Processing Job:5, Job D:1
+Time 31:  Complete Processing Job:13, Job A:6
+Time 31:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:0; CPU 3 Run Time:6; CPU 4 Idle Time:0
+Time 32:  Arrival: Overall Job:2, Job B:5, Processing Time 8
+Time 32:- Begin Processing Job:15, Job A:5 in CPU 1
+Time 32:  Complete Processing Job:10, Job C:2
+Time 32:- Begin Processing Job:15, Job B:5 in CPU 4
+Time 32:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:1; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 33:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:2; CPU 3 Idle Time:1; CPU 4 Run Time:1
+Time 34:  Arrival: Overall Job:1, Job A:7, Processing Time 3
+Time 34:- Begin Processing Job:16, Job A:7 in CPU 3
+Time 34:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:3; CPU 3 Run Time:0; CPU 4 Run Time:2
+Time 35:  Arrival: Overall Job:1, Job C:3, Processing Time 6
+Time 35:  Complete Processing Job:12, Job A:5
+Time 35:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:4; CPU 3 Run Time:1; CPU 4 Run Time:3
+Time 36:- Begin Processing Job:17, Job C:3 in CPU 1
+Time 36:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:5; CPU 3 Run Time:2; CPU 4 Run Time:4
+Time 37:  Complete Processing Job:16, Job A:7
+Time 37:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:6; CPU 3 Idle Time:0; CPU 4 Run Time:5
+Time 38:  Arrival: Overall Job:1, Job A:8, Processing Time 4
+Time 38:- Begin Processing Job:18, Job A:8 in CPU 3
+Time 38:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:7; CPU 3 Run Time:0; CPU 4 Run Time:6
+Time 39:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:8; CPU 3 Run Time:1; CPU 4 Run Time:7
+Time 40:  Arrival: Overall Job:1, Job B:6, Processing Time 5
+Time 40:  Complete Processing Job:15, Job B:5
+Time 40:  Queue: 1 Job; CPU 1 Run Time:4; CPU 2 Run Time:9; CPU 3 Run Time:2; CPU 4 Idle Time:0
+Time 41:- Begin Processing Job:19, Job B:6 in CPU 4
+Time 41:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:10; CPU 3 Run Time:3; CPU 4 Run Time:0
+Time 42:  Complete Processing Job:17, Job C:3
+Time 42:  Complete Processing Job:18, Job A:8
+Time 42:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:11; CPU 3 Idle Time:0; CPU 4 Run Time:1
+Time 43:  Arrival: Overall Job:1, Job A:9, Processing Time 5
+Time 43:- Begin Processing Job:20, Job A:9 in CPU 1
+Time 43:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:12; CPU 3 Idle Time:1; CPU 4 Run Time:2
+Time 44:  Complete Processing Job:14, Job D:2
+Time 44:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:0; CPU 3 Idle Time:2; CPU 4 Run Time:3
+Time 45:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Idle Time:1; CPU 3 Idle Time:3; CPU 4 Run Time:4
+Time 46:  Complete Processing Job:19, Job B:6
+Time 46:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Idle Time:2; CPU 3 Idle Time:4; CPU 4 Idle Time:0
+Time 47:  Arrival: Overall Job:1, Job B:7, Processing Time 6
+Time 47:- Begin Processing Job:21, Job B:7 in CPU 2
+Time 47:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:0; CPU 3 Idle Time:5; CPU 4 Idle Time:1
+Time 48:  Arrival: Overall Job:1, Job A:10, Processing Time 3
+Time 48:  Complete Processing Job:20, Job A:9
+Time 48:- Begin Processing Job:22, Job A:10 in CPU 3
+Time 48:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:1; CPU 3 Run Time:0; CPU 4 Idle Time:2
+Time 49:  Arrival: Overall Job:1, Job D:3, Processing Time 13
+Time 49:  Arrival: Overall Job:2, Job C:4, Processing Time 8
+Time 49:- Begin Processing Job:24, Job D:3 in CPU 1
+Time 49:- Begin Processing Job:24, Job C:4 in CPU 4
+Time 49:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:2; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 50:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:3; CPU 3 Run Time:2; CPU 4 Run Time:1
+Time 51:  Complete Processing Job:22, Job A:10
+Time 51:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:4; CPU 3 Idle Time:0; CPU 4 Run Time:2
+Time 52:  Arrival: Overall Job:1, Job A:11, Processing Time 5
+Time 52:- Begin Processing Job:25, Job A:11 in CPU 3
+Time 52:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:5; CPU 3 Run Time:0; CPU 4 Run Time:3
+Time 53:  Arrival: Overall Job:1, Job B:8, Processing Time 2
+Time 53:  Complete Processing Job:21, Job B:7
+Time 53:  Queue: 1 Job; CPU 1 Run Time:4; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Run Time:4
+Time 54:- Begin Processing Job:26, Job B:8 in CPU 2
+Time 54:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:0; CPU 3 Run Time:2; CPU 4 Run Time:5
+Time 55:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:1; CPU 3 Run Time:3; CPU 4 Run Time:6
+Time 56:  Arrival: Overall Job:1, Job A:12, Processing Time 3
+Time 56:  Complete Processing Job:26, Job B:8
+Time 56:  Queue: 1 Job; CPU 1 Run Time:7; CPU 2 Idle Time:0; CPU 3 Run Time:4; CPU 4 Run Time:7
+Time 57:- Begin Processing Job:27, Job A:12 in CPU 2
+Time 57:  Complete Processing Job:25, Job A:11
+Time 57:  Complete Processing Job:24, Job C:4
+Time 57:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Run Time:0; CPU 3 Idle Time:0; CPU 4 Idle Time:0
+Time 58:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Run Time:1; CPU 3 Idle Time:1; CPU 4 Idle Time:1
+Time 59:  Arrival: Overall Job:1, Job C:5, Processing Time 12
+Time 59:- Begin Processing Job:28, Job C:5 in CPU 3
+Time 59:  Queue: Empty; CPU 1 Run Time:10; CPU 2 Run Time:2; CPU 3 Run Time:0; CPU 4 Idle Time:2
+Time 60:  Complete Processing Job:27, Job A:12
+Time 60:  Queue: Empty; CPU 1 Run Time:11; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Idle Time:3
+Time 61:  Arrival: Overall Job:1, Job A:13, Processing Time 4
+Time 61:  Arrival: Overall Job:2, Job B:9, Processing Time 8
+Time 61:- Begin Processing Job:30, Job A:13 in CPU 2
+Time 61:- Begin Processing Job:30, Job B:9 in CPU 4
+Time 61:  Queue: Empty; CPU 1 Run Time:12; CPU 2 Run Time:0; CPU 3 Run Time:2; CPU 4 Run Time:0
+Time 62:  Complete Processing Job:23, Job D:3
+Time 62:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:1; CPU 3 Run Time:3; CPU 4 Run Time:1
+Time 63:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:2; CPU 3 Run Time:4; CPU 4 Run Time:2
+Time 64:  Arrival: Overall Job:1, Job C:6, Processing Time 9
+Time 64:- Begin Processing Job:31, Job C:6 in CPU 1
+Time 64:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:3; CPU 3 Run Time:5; CPU 4 Run Time:3
+Time 65:  Arrival: Overall Job:1, Job A:14, Processing Time 4
+Time 65:  Complete Processing Job:29, Job A:13
+Time 65:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Idle Time:0; CPU 3 Run Time:6; CPU 4 Run Time:4
+Time 66:  Arrival: Overall Job:2, Job D:4, Processing Time 13
+Time 66:- Begin Processing Job:33, Job D:4 in CPU 2
+Time 66:  Queue: 1 Job; CPU 1 Run Time:2; CPU 2 Run Time:0; CPU 3 Run Time:7; CPU 4 Run Time:5
+Time 67:  Queue: 1 Job; CPU 1 Run Time:3; CPU 2 Run Time:1; CPU 3 Run Time:8; CPU 4 Run Time:6
+Time 68:  Arrival: Overall Job:2, Job B:10, Processing Time 3
+Time 68:  Queue: 2 Job; CPU 1 Run Time:4; CPU 2 Run Time:2; CPU 3 Run Time:9; CPU 4 Run Time:7
+Time 69:  Complete Processing Job:30, Job B:9
+Time 69:  Queue: 2 Job; CPU 1 Run Time:5; CPU 2 Run Time:3; CPU 3 Run Time:10; CPU 4 Idle Time:0
+Time 70:- Begin Processing Job:34, Job A:14 in CPU 4
+Time 70:  Queue: 1 Job; CPU 1 Run Time:6; CPU 2 Run Time:4; CPU 3 Run Time:11; CPU 4 Run Time:0
+Time 71:  Arrival: Overall Job:2, Job A:15, Processing Time 1
+Time 71:  Complete Processing Job:28, Job C:5
+Time 71:  Queue: 2 Job; CPU 1 Run Time:7; CPU 2 Run Time:5; CPU 3 Idle Time:0; CPU 4 Run Time:1
+Time 72:- Begin Processing Job:35, Job B:10 in CPU 3
+Time 72:  Queue: 1 Job; CPU 1 Run Time:8; CPU 2 Run Time:6; CPU 3 Run Time:0; CPU 4 Run Time:2
+Time 73:  Complete Processing Job:31, Job C:6
+Time 73:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:7; CPU 3 Run Time:1; CPU 4 Run Time:3
+Time 74:- Begin Processing Job:35, Job A:15 in CPU 1
+Time 74:  Complete Processing Job:32, Job A:14
+Time 74:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:8; CPU 3 Run Time:2; CPU 4 Idle Time:0
+Time 75:  Complete Processing Job:35, Job A:15
+Time 75:  Complete Processing Job:34, Job B:10
+Time 75:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:9; CPU 3 Idle Time:0; CPU 4 Idle Time:1
+Time 76:  Arrival: Overall Job:1, Job B:11, Processing Time 3
+Time 76:  Arrival: Overall Job:2, Job A:16, Processing Time 2
+Time 76:- Begin Processing Job:37, Job B:11 in CPU 1
+Time 76:- Begin Processing Job:37, Job A:16 in CPU 3
+Time 76:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:10; CPU 3 Run Time:0; CPU 4 Idle Time:2
+Time 77:  Arrival: Overall Job:1, Job C:7, Processing Time 11
+Time 77:- Begin Processing Job:38, Job C:7 in CPU 4
+Time 77:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:11; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 78:  Complete Processing Job:37, Job A:16
+Time 78:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:12; CPU 3 Idle Time:0; CPU 4 Run Time:1
+Time 79:  Complete Processing Job:36, Job B:11
+Time 79:  Complete Processing Job:33, Job D:4
+Time 79:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Idle Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:2
+Time 80:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Idle Time:1; CPU 3 Idle Time:2; CPU 4 Run Time:3
+Time 81:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Idle Time:2; CPU 3 Idle Time:3; CPU 4 Run Time:4
+Time 82:  Arrival: Overall Job:1, Job A:17, Processing Time 3
+Time 82:- Begin Processing Job:39, Job A:17 in CPU 1
+Time 82:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:3; CPU 3 Idle Time:4; CPU 4 Run Time:5
+Time 83:  Arrival: Overall Job:1, Job B:12, Processing Time 4
+Time 83:- Begin Processing Job:40, Job B:12 in CPU 2
+Time 83:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:0; CPU 3 Idle Time:5; CPU 4 Run Time:6
+Time 84:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:1; CPU 3 Idle Time:6; CPU 4 Run Time:7
+Time 85:  Complete Processing Job:39, Job A:17
+Time 85:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Idle Time:7; CPU 4 Run Time:8
+Time 86:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:3; CPU 3 Idle Time:8; CPU 4 Run Time:9
+Time 87:  Complete Processing Job:40, Job B:12
+Time 87:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Idle Time:0; CPU 3 Idle Time:9; CPU 4 Run Time:10
+Time 88:  Arrival: Overall Job:1, Job A:18, Processing Time 4
+Time 88:- Begin Processing Job:41, Job A:18 in CPU 1
+Time 88:  Complete Processing Job:38, Job C:7
+Time 88:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:1; CPU 3 Idle Time:10; CPU 4 Idle Time:0
+Time 89:  Arrival: Overall Job:1, Job D:5, Processing Time 7
+Time 89:  Arrival: Overall Job:2, Job B:13, Processing Time 3
+Time 89:- Begin Processing Job:43, Job D:5 in CPU 2
+Time 89:- Begin Processing Job:43, Job B:13 in CPU 3
+Time 89:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:1
+Time 90:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:1; CPU 3 Run Time:1; CPU 4 Idle Time:2
+Time 91:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:2; CPU 3 Run Time:2; CPU 4 Idle Time:3
+Time 92:  Complete Processing Job:41, Job A:18
+Time 92:  Complete Processing Job:43, Job B:13
+Time 92:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:3; CPU 3 Idle Time:0; CPU 4 Idle Time:4
+Time 93:  Arrival: Overall Job:1, Job C:8, Processing Time 10
+Time 93:  Arrival: Overall Job:2, Job A:19, Processing Time 5
+Time 93:- Begin Processing Job:45, Job C:8 in CPU 1
+Time 93:- Begin Processing Job:45, Job A:19 in CPU 3
+Time 93:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:4; CPU 3 Run Time:0; CPU 4 Idle Time:5
+Time 94:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:5; CPU 3 Run Time:1; CPU 4 Idle Time:6
+Time 95:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:6; CPU 3 Run Time:2; CPU 4 Idle Time:7
+Time 96:  Arrival: Overall Job:1, Job B:14, Processing Time 6
+Time 96:  Complete Processing Job:42, Job D:5
+Time 96:- Begin Processing Job:46, Job B:14 in CPU 4
+Time 96:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Idle Time:0; CPU 3 Run Time:3; CPU 4 Run Time:0
+Time 97:  Arrival: Overall Job:1, Job A:20, Processing Time 2
+Time 97:- Begin Processing Job:47, Job A:20 in CPU 2
+Time 97:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:0; CPU 3 Run Time:4; CPU 4 Run Time:1
+Time 98:  Complete Processing Job:45, Job A:19
+Time 98:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:1; CPU 3 Idle Time:0; CPU 4 Run Time:2
+Time 99:  Complete Processing Job:47, Job A:20
+Time 99:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Idle Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:3
+Time 100:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Idle Time:1; CPU 3 Idle Time:2; CPU 4 Run Time:4
+Time 101:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Idle Time:2; CPU 3 Idle Time:3; CPU 4 Run Time:5
+Time 102:  Arrival: Overall Job:1, Job B:15, Processing Time 7
+Time 102:  Arrival: Overall Job:2, Job A:21, Processing Time 3
+Time 102:- Begin Processing Job:49, Job B:15 in CPU 2
+Time 102:- Begin Processing Job:49, Job A:21 in CPU 3
+Time 102:  Complete Processing Job:46, Job B:14
+Time 102:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Run Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 103:  Complete Processing Job:44, Job C:8
+Time 103:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:1; CPU 3 Run Time:1; CPU 4 Idle Time:1
+Time 104:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:2; CPU 3 Run Time:2; CPU 4 Idle Time:2
+Time 105:  Complete Processing Job:49, Job A:21
+Time 105:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Run Time:3; CPU 3 Idle Time:0; CPU 4 Idle Time:3
+Time 106:  Queue: Empty; CPU 1 Idle Time:3; CPU 2 Run Time:4; CPU 3 Idle Time:1; CPU 4 Idle Time:4
+Time 107:  Arrival: Overall Job:1, Job A:22, Processing Time 2
+Time 107:- Begin Processing Job:50, Job A:22 in CPU 1
+Time 107:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:5; CPU 3 Idle Time:2; CPU 4 Idle Time:5
+Time 108:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:6; CPU 3 Idle Time:3; CPU 4 Idle Time:6
+Time 109:  Arrival: Overall Job:1, Job D:6, Processing Time 11
+Time 109:  Complete Processing Job:50, Job A:22
+Time 109:  Complete Processing Job:48, Job B:15
+Time 109:- Begin Processing Job:51, Job D:6 in CPU 3
+Time 109:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:7
+Time 110:  Arrival: Overall Job:1, Job B:16, Processing Time 8
+Time 110:- Begin Processing Job:52, Job B:16 in CPU 1
+Time 110:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:1; CPU 3 Run Time:1; CPU 4 Idle Time:8
+Time 111:  Arrival: Overall Job:1, Job C:9, Processing Time 7
+Time 111:- Begin Processing Job:53, Job C:9 in CPU 2
+Time 111:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:0; CPU 3 Run Time:2; CPU 4 Idle Time:9
+Time 112:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:1; CPU 3 Run Time:3; CPU 4 Idle Time:10
+Time 113:  Arrival: Overall Job:1, Job A:23, Processing Time 1
+Time 113:- Begin Processing Job:54, Job A:23 in CPU 4
+Time 113:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:2; CPU 3 Run Time:4; CPU 4 Run Time:0
+Time 114:  Complete Processing Job:54, Job A:23
+Time 114:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:3; CPU 3 Run Time:5; CPU 4 Idle Time:0
+Time 115:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:4; CPU 3 Run Time:6; CPU 4 Idle Time:1
+Time 116:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:5; CPU 3 Run Time:7; CPU 4 Idle Time:2
+Time 117:  Arrival: Overall Job:1, Job C:10, Processing Time 9
+Time 117:- Begin Processing Job:55, Job C:10 in CPU 4
+Time 117:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Run Time:6; CPU 3 Run Time:8; CPU 4 Run Time:0
+Time 118:  Arrival: Overall Job:1, Job B:17, Processing Time 5
+Time 118:  Complete Processing Job:52, Job B:16
+Time 118:  Complete Processing Job:53, Job C:9
+Time 118:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Idle Time:0; CPU 3 Run Time:9; CPU 4 Run Time:1
+Time 119:  Arrival: Overall Job:2, Job A:24, Processing Time 2
+Time 119:- Begin Processing Job:57, Job B:17 in CPU 1
+Time 119:- Begin Processing Job:57, Job A:24 in CPU 2
+Time 119:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:0; CPU 3 Run Time:10; CPU 4 Run Time:2
+Time 120:  Complete Processing Job:51, Job D:6
+Time 120:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:1; CPU 3 Idle Time:0; CPU 4 Run Time:3
+Time 121:  Complete Processing Job:57, Job A:24
+Time 121:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Idle Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:4
+Time 122:  Arrival: Overall Job:1, Job C:11, Processing Time 7
+Time 122:- Begin Processing Job:58, Job C:11 in CPU 2
+Time 122:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:0; CPU 3 Idle Time:2; CPU 4 Run Time:5
+Time 123:  Arrival: Overall Job:1, Job A:25, Processing Time 3
+Time 123:- Begin Processing Job:59, Job A:25 in CPU 3
+Time 123:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:1; CPU 3 Run Time:0; CPU 4 Run Time:6
+Time 124:  Arrival: Overall Job:1, Job B:18, Processing Time 2
+Time 124:  Complete Processing Job:56, Job B:17
+Time 124:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Run Time:1; CPU 4 Run Time:7
+Time 125:- Begin Processing Job:60, Job B:18 in CPU 1
+Time 125:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:3; CPU 3 Run Time:2; CPU 4 Run Time:8
+Time 126:  Arrival: Overall Job:1, Job D:7, Processing Time 16
+Time 126:  Arrival: Overall Job:2, Job C:12, Processing Time 12
+Time 126:  Complete Processing Job:59, Job A:25
+Time 126:  Complete Processing Job:55, Job C:10
+Time 126:  Queue: 2 Job; CPU 1 Run Time:0; CPU 2 Run Time:4; CPU 3 Idle Time:0; CPU 4 Idle Time:0
+Time 127:- Begin Processing Job:62, Job B:18 in CPU 3
+Time 127:- Begin Processing Job:62, Job C:12 in CPU 4
+Time 127:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:5; CPU 3 Run Time:0; CPU 4 Run Time:0
+Time 128:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:6; CPU 3 Run Time:1; CPU 4 Run Time:1
+Time 129:  Arrival: Overall Job:1, Job A:26, Processing Time 4
+Time 129:  Complete Processing Job:58, Job C:11
+Time 129:  Complete Processing Job:60, Job B:18
+Time 129:  Queue: 1 Job; CPU 1 Run Time:3; CPU 2 Idle Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:2
+Time 130:- Begin Processing Job:63, Job A:26 in CPU 2
+Time 130:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:3
+Time 131:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:1; CPU 3 Idle Time:2; CPU 4 Run Time:4
+Time 132:  Arrival: Overall Job:1, Job B:19, Processing Time 4
+Time 132:- Begin Processing Job:64, Job B:19 in CPU 3
+Time 132:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:2; CPU 3 Run Time:0; CPU 4 Run Time:5
+Time 133:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Run Time:3; CPU 3 Run Time:1; CPU 4 Run Time:6
+Time 134:  Arrival: Overall Job:1, Job C:13, Processing Time 12
+Time 134:  Arrival: Overall Job:2, Job A:27, Processing Time 5
+Time 134:  Complete Processing Job:63, Job A:26
+Time 134:  Queue: 2 Job; CPU 1 Run Time:8; CPU 2 Idle Time:0; CPU 3 Run Time:2; CPU 4 Run Time:7
+Time 135:- Begin Processing Job:66, Job C:13 in CPU 2
+Time 135:  Queue: 1 Job; CPU 1 Run Time:9; CPU 2 Run Time:0; CPU 3 Run Time:3; CPU 4 Run Time:8
+Time 136:  Complete Processing Job:64, Job B:19
+Time 136:  Queue: 1 Job; CPU 1 Run Time:10; CPU 2 Run Time:1; CPU 3 Idle Time:0; CPU 4 Run Time:9
+Time 137:- Begin Processing Job:66, Job A:27 in CPU 3
+Time 137:  Queue: Empty; CPU 1 Run Time:11; CPU 2 Run Time:2; CPU 3 Run Time:0; CPU 4 Run Time:10
+Time 138:  Arrival: Overall Job:1, Job B:20, Processing Time 8
+Time 138:  Queue: 1 Job; CPU 1 Run Time:12; CPU 2 Run Time:3; CPU 3 Run Time:1; CPU 4 Run Time:11
+Time 139:  Arrival: Overall Job:2, Job A:28, Processing Time 1
+Time 139:  Complete Processing Job:62, Job C:12
+Time 139:  Queue: 2 Job; CPU 1 Run Time:13; CPU 2 Run Time:4; CPU 3 Run Time:2; CPU 4 Idle Time:0
+Time 140:- Begin Processing Job:68, Job B:20 in CPU 4
+Time 140:  Queue: 1 Job; CPU 1 Run Time:14; CPU 2 Run Time:5; CPU 3 Run Time:3; CPU 4 Run Time:0
+Time 141:  Queue: 1 Job; CPU 1 Run Time:15; CPU 2 Run Time:6; CPU 3 Run Time:4; CPU 4 Run Time:1
+Time 142:  Arrival: Overall Job:2, Job D:8, Processing Time 7
+Time 142:  Complete Processing Job:61, Job D:7
+Time 142:  Complete Processing Job:66, Job A:27
+Time 142:  Queue: 2 Job; CPU 1 Idle Time:0; CPU 2 Run Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:2
+Time 143:  Arrival: Overall Job:3, Job A:29, Processing Time 2
+Time 143:- Begin Processing Job:70, Job C:13 in CPU 1
+Time 143:- Begin Processing Job:70, Job A:28 in CPU 3
+Time 143:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:1; CPU 3 Run Time:0; CPU 4 Run Time:3
+Time 144:  Arrival: Overall Job:2, Job B:21, Processing Time 8
+Time 144:  Complete Processing Job:68, Job A:28
+Time 144:  Queue: 2 Job; CPU 1 Run Time:1; CPU 2 Run Time:2; CPU 3 Idle Time:0; CPU 4 Run Time:4
+Time 145:- Begin Processing Job:71, Job A:29 in CPU 3
+Time 145:  Queue: 1 Job; CPU 1 Run Time:2; CPU 2 Run Time:3; CPU 3 Run Time:0; CPU 4 Run Time:5
+Time 146:  Arrival: Overall Job:2, Job C:14, Processing Time 11
+Time 146:  Queue: 2 Job; CPU 1 Run Time:3; CPU 2 Run Time:4; CPU 3 Run Time:1; CPU 4 Run Time:6
+Time 147:  Arrival: Overall Job:3, Job A:30, Processing Time 4
+Time 147:  Complete Processing Job:70, Job A:29
+Time 147:  Queue: 3 Job; CPU 1 Run Time:4; CPU 2 Run Time:5; CPU 3 Idle Time:0; CPU 4 Run Time:7
+Time 148:- Begin Processing Job:73, Job B:21 in CPU 3
+Time 148:  Complete Processing Job:67, Job B:20
+Time 148:  Queue: 2 Job; CPU 1 Run Time:5; CPU 2 Run Time:6; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 149:  Complete Processing Job:65, Job C:13
+Time 149:  Complete Processing Job:69, Job D:8
+Time 149:- Begin Processing Job:73, Job C:14 in CPU 4
+Time 149:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 150:- Begin Processing Job:73, Job A:30 in CPU 1
+Time 150:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:1; CPU 3 Run Time:2; CPU 4 Run Time:1
+Time 151:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:2; CPU 3 Run Time:3; CPU 4 Run Time:2
+Time 152:  Arrival: Overall Job:1, Job B:22, Processing Time 6
+Time 152:  Arrival: Overall Job:2, Job A:31, Processing Time 2
+Time 152:- Begin Processing Job:75, Job B:22 in CPU 2
+Time 152:  Queue: 1 Job; CPU 1 Run Time:2; CPU 2 Run Time:0; CPU 3 Run Time:4; CPU 4 Run Time:3
+Time 153:  Queue: 1 Job; CPU 1 Run Time:3; CPU 2 Run Time:1; CPU 3 Run Time:5; CPU 4 Run Time:4
+Time 154:  Complete Processing Job:73, Job A:30
+Time 154:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Run Time:6; CPU 4 Run Time:5
+Time 155:- Begin Processing Job:75, Job A:31 in CPU 1
+Time 155:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:3; CPU 3 Run Time:7; CPU 4 Run Time:6
+Time 156:  Arrival: Overall Job:1, Job A:32, Processing Time 5
+Time 156:  Complete Processing Job:71, Job B:21
+Time 156:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Run Time:4; CPU 3 Idle Time:0; CPU 4 Run Time:7
+Time 157:  Complete Processing Job:75, Job A:31
+Time 157:- Begin Processing Job:76, Job A:32 in CPU 3
+Time 157:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:5; CPU 3 Run Time:0; CPU 4 Run Time:8
+Time 158:  Complete Processing Job:74, Job B:22
+Time 158:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Run Time:9
+Time 159:  Arrival: Overall Job:1, Job B:23, Processing Time 7
+Time 159:- Begin Processing Job:77, Job B:23 in CPU 1
+Time 159:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:1; CPU 3 Run Time:2; CPU 4 Run Time:10
+Time 160:  Complete Processing Job:72, Job C:14
+Time 160:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:2; CPU 3 Run Time:3; CPU 4 Idle Time:0
+Time 161:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Idle Time:3; CPU 3 Run Time:4; CPU 4 Idle Time:1
+Time 162:  Arrival: Overall Job:1, Job D:9, Processing Time 9
+Time 162:  Arrival: Overall Job:2, Job A:33, Processing Time 4
+Time 162:- Begin Processing Job:79, Job D:9 in CPU 2
+Time 162:  Complete Processing Job:76, Job A:32
+Time 162:- Begin Processing Job:79, Job A:33 in CPU 4
+Time 162:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 163:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:1; CPU 3 Idle Time:1; CPU 4 Run Time:1
+Time 164:  Arrival: Overall Job:1, Job C:15, Processing Time 12
+Time 164:- Begin Processing Job:80, Job C:15 in CPU 3
+Time 164:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:2; CPU 3 Run Time:0; CPU 4 Run Time:2
+Time 165:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:3; CPU 3 Run Time:1; CPU 4 Run Time:3
+Time 166:  Arrival: Overall Job:1, Job B:24, Processing Time 2
+Time 166:  Arrival: Overall Job:2, Job A:34, Processing Time 4
+Time 166:  Complete Processing Job:77, Job B:23
+Time 166:  Complete Processing Job:79, Job A:33
+Time 166:  Queue: 2 Job; CPU 1 Idle Time:0; CPU 2 Run Time:4; CPU 3 Run Time:2; CPU 4 Idle Time:0
+Time 167:- Begin Processing Job:82, Job B:24 in CPU 1
+Time 167:- Begin Processing Job:82, Job A:34 in CPU 4
+Time 167:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:5; CPU 3 Run Time:3; CPU 4 Run Time:0
+Time 168:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:6; CPU 3 Run Time:4; CPU 4 Run Time:1
+Time 169:  Arrival: Overall Job:1, Job C:16, Processing Time 7
+Time 169:  Complete Processing Job:81, Job B:24
+Time 169:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:7; CPU 3 Run Time:5; CPU 4 Run Time:2
+Time 170:  Arrival: Overall Job:2, Job A:35, Processing Time 4
+Time 170:- Begin Processing Job:84, Job C:16 in CPU 1
+Time 170:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:8; CPU 3 Run Time:6; CPU 4 Run Time:3
+Time 171:  Complete Processing Job:78, Job D:9
+Time 171:  Complete Processing Job:82, Job A:34
+Time 171:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Idle Time:0; CPU 3 Run Time:7; CPU 4 Idle Time:0
+Time 172:- Begin Processing Job:84, Job A:35 in CPU 2
+Time 172:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:0; CPU 3 Run Time:8; CPU 4 Idle Time:1
+Time 173:  Arrival: Overall Job:1, Job B:25, Processing Time 7
+Time 173:- Begin Processing Job:85, Job B:25 in CPU 4
+Time 173:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:1; CPU 3 Run Time:9; CPU 4 Run Time:0
+Time 174:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:2; CPU 3 Run Time:10; CPU 4 Run Time:1
+Time 175:  Arrival: Overall Job:1, Job A:36, Processing Time 2
+Time 175:  Queue: 1 Job; CPU 1 Run Time:5; CPU 2 Run Time:3; CPU 3 Run Time:11; CPU 4 Run Time:2
+Time 176:  Complete Processing Job:84, Job A:35
+Time 176:  Complete Processing Job:80, Job C:15
+Time 176:  Queue: 1 Job; CPU 1 Run Time:6; CPU 2 Idle Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:3
+Time 177:  Complete Processing Job:83, Job C:16
+Time 177:- Begin Processing Job:86, Job A:36 in CPU 2
+Time 177:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:4
+Time 178:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:1; CPU 3 Idle Time:2; CPU 4 Run Time:5
+Time 179:  Arrival: Overall Job:1, Job B:26, Processing Time 5
+Time 179:- Begin Processing Job:87, Job B:26 in CPU 1
+Time 179:  Complete Processing Job:86, Job A:36
+Time 179:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:0; CPU 3 Idle Time:3; CPU 4 Run Time:6
+Time 180:  Arrival: Overall Job:1, Job C:17, Processing Time 10
+Time 180:  Arrival: Overall Job:2, Job A:37, Processing Time 4
+Time 180:- Begin Processing Job:89, Job C:17 in CPU 2
+Time 180:- Begin Processing Job:89, Job A:37 in CPU 3
+Time 180:  Complete Processing Job:85, Job B:25
+Time 180:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 181:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:1; CPU 3 Run Time:1; CPU 4 Idle Time:1
+Time 182:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:2; CPU 3 Run Time:2; CPU 4 Idle Time:2
+Time 183:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:3; CPU 3 Run Time:3; CPU 4 Idle Time:3
+Time 184:  Arrival: Overall Job:1, Job A:38, Processing Time 5
+Time 184:  Complete Processing Job:87, Job B:26
+Time 184:  Complete Processing Job:89, Job A:37
+Time 184:- Begin Processing Job:90, Job A:38 in CPU 4
+Time 184:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:4; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 185:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:5; CPU 3 Idle Time:1; CPU 4 Run Time:1
+Time 186:  Arrival: Overall Job:1, Job D:10, Processing Time 17
+Time 186:  Arrival: Overall Job:2, Job B:27, Processing Time 2
+Time 186:- Begin Processing Job:92, Job D:10 in CPU 1
+Time 186:- Begin Processing Job:92, Job B:27 in CPU 3
+Time 186:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:6; CPU 3 Run Time:0; CPU 4 Run Time:2
+Time 187:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:7; CPU 3 Run Time:1; CPU 4 Run Time:3
+Time 188:  Complete Processing Job:92, Job B:27
+Time 188:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:8; CPU 3 Idle Time:0; CPU 4 Run Time:4
+Time 189:  Complete Processing Job:90, Job A:38
+Time 189:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:9; CPU 3 Idle Time:1; CPU 4 Idle Time:0
+Time 190:  Arrival: Overall Job:1, Job C:18, Processing Time 10
+Time 190:  Arrival: Overall Job:2, Job A:39, Processing Time 2
+Time 190:  Complete Processing Job:88, Job C:17
+Time 190:- Begin Processing Job:94, Job C:18 in CPU 3
+Time 190:- Begin Processing Job:94, Job A:39 in CPU 4
+Time 190:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Run Time:0
+Time 191:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Idle Time:1; CPU 3 Run Time:1; CPU 4 Run Time:1
+Time 192:  Complete Processing Job:94, Job A:39
+Time 192:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Idle Time:2; CPU 3 Run Time:2; CPU 4 Idle Time:0
+Time 193:  Arrival: Overall Job:1, Job B:28, Processing Time 6
+Time 193:- Begin Processing Job:95, Job B:28 in CPU 2
+Time 193:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Run Time:0; CPU 3 Run Time:3; CPU 4 Idle Time:1
+Time 194:  Arrival: Overall Job:1, Job C:19, Processing Time 8
+Time 194:- Begin Processing Job:96, Job C:19 in CPU 4
+Time 194:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Run Time:1; CPU 3 Run Time:4; CPU 4 Run Time:0
+Time 195:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Run Time:2; CPU 3 Run Time:5; CPU 4 Run Time:1
+Time 196:  Arrival: Overall Job:1, Job A:40, Processing Time 5
+Time 196:  Queue: 1 Job; CPU 1 Run Time:10; CPU 2 Run Time:3; CPU 3 Run Time:6; CPU 4 Run Time:2
+Time 197:  Queue: 1 Job; CPU 1 Run Time:11; CPU 2 Run Time:4; CPU 3 Run Time:7; CPU 4 Run Time:3
+Time 198:  Queue: 1 Job; CPU 1 Run Time:12; CPU 2 Run Time:5; CPU 3 Run Time:8; CPU 4 Run Time:4
+Time 199:  Arrival: Overall Job:2, Job B:29, Processing Time 2
+Time 199:  Complete Processing Job:95, Job B:28
+Time 199:  Queue: 2 Job; CPU 1 Run Time:13; CPU 2 Idle Time:0; CPU 3 Run Time:9; CPU 4 Run Time:5
+Time 200:  Arrival: Overall Job:3, Job A:41, Processing Time 5
+Time 200:- Begin Processing Job:99, Job A:40 in CPU 2
+Time 200:  Complete Processing Job:93, Job C:18
+Time 200:  Queue: 2 Job; CPU 1 Run Time:14; CPU 2 Run Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:6
+Time 201:- Begin Processing Job:99, Job B:29 in CPU 3
+Time 201:  Queue: 1 Job; CPU 1 Run Time:15; CPU 2 Run Time:1; CPU 3 Run Time:0; CPU 4 Run Time:7
+Time 202:  Complete Processing Job:96, Job C:19
+Time 202:  Queue: 1 Job; CPU 1 Run Time:16; CPU 2 Run Time:2; CPU 3 Run Time:1; CPU 4 Idle Time:0
+Time 203:  Complete Processing Job:91, Job D:10
+Time 203:  Complete Processing Job:98, Job B:29
+Time 203:- Begin Processing Job:99, Job A:41 in CPU 4
+Time 203:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:3; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 204:  Arrival: Overall Job:1, Job D:11, Processing Time 10
+Time 204:  Arrival: Overall Job:2, Job A:42, Processing Time 2
+Time 204:- Begin Processing Job:101, Job D:11 in CPU 1
+Time 204:- Begin Processing Job:101, Job A:42 in CPU 3
+Time 204:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:4; CPU 3 Run Time:0; CPU 4 Run Time:1
+Time 205:  Complete Processing Job:97, Job A:40
+Time 205:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Run Time:2
+Time 206:  Arrival: Overall Job:1, Job B:30, Processing Time 4
+Time 206:- Begin Processing Job:102, Job B:30 in CPU 2
+Time 206:  Complete Processing Job:101, Job A:42
+Time 206:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:3
+Time 207:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:1; CPU 3 Idle Time:1; CPU 4 Run Time:4
+Time 208:  Arrival: Overall Job:1, Job C:20, Processing Time 12
+Time 208:- Begin Processing Job:103, Job C:20 in CPU 3
+Time 208:  Complete Processing Job:99, Job A:41
+Time 208:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:2; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 209:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:3; CPU 3 Run Time:1; CPU 4 Idle Time:1
+Time 210:  Arrival: Overall Job:1, Job A:43, Processing Time 1
+Time 210:  Complete Processing Job:102, Job B:30
+Time 210:- Begin Processing Job:104, Job A:43 in CPU 4
+Time 210:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Idle Time:0; CPU 3 Run Time:2; CPU 4 Run Time:0
+Time 211:  Complete Processing Job:104, Job A:43
+Time 211:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Idle Time:1; CPU 3 Run Time:3; CPU 4 Idle Time:0
+Time 212:  Arrival: Overall Job:1, Job B:31, Processing Time 3
+Time 212:- Begin Processing Job:105, Job B:31 in CPU 2
+Time 212:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Run Time:0; CPU 3 Run Time:4; CPU 4 Idle Time:1
+Time 213:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Run Time:1; CPU 3 Run Time:5; CPU 4 Idle Time:2
+Time 214:  Arrival: Overall Job:1, Job A:44, Processing Time 5
+Time 214:  Complete Processing Job:100, Job D:11
+Time 214:- Begin Processing Job:106, Job A:44 in CPU 4
+Time 214:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Run Time:6; CPU 4 Run Time:0
+Time 215:  Complete Processing Job:105, Job B:31
+Time 215:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Idle Time:0; CPU 3 Run Time:7; CPU 4 Run Time:1
+Time 216:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Idle Time:1; CPU 3 Run Time:8; CPU 4 Run Time:2
+Time 217:  Queue: Empty; CPU 1 Idle Time:3; CPU 2 Idle Time:2; CPU 3 Run Time:9; CPU 4 Run Time:3
+Time 218:  Arrival: Overall Job:1, Job D:12, Processing Time 15
+Time 218:  Arrival: Overall Job:2, Job A:45, Processing Time 4
+Time 218:  Arrival: Overall Job:3, Job B:32, Processing Time 2
+Time 218:- Begin Processing Job:109, Job D:12 in CPU 1
+Time 218:- Begin Processing Job:109, Job A:45 in CPU 2
+Time 218:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:0; CPU 3 Run Time:10; CPU 4 Run Time:4
+Time 219:  Complete Processing Job:106, Job A:44
+Time 219:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Run Time:1; CPU 3 Run Time:11; CPU 4 Idle Time:0
+Time 220:  Complete Processing Job:103, Job C:20
+Time 220:- Begin Processing Job:109, Job B:32 in CPU 4
+Time 220:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:2; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 221:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:3; CPU 3 Idle Time:1; CPU 4 Run Time:1
+Time 222:  Arrival: Overall Job:1, Job A:46, Processing Time 4
+Time 222:  Complete Processing Job:108, Job A:45
+Time 222:- Begin Processing Job:110, Job A:46 in CPU 3
+Time 222:  Complete Processing Job:109, Job B:32
+Time 222:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 223:  Arrival: Overall Job:1, Job C:21, Processing Time 12
+Time 223:- Begin Processing Job:111, Job C:21 in CPU 2
+Time 223:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:0; CPU 3 Run Time:1; CPU 4 Idle Time:1
+Time 224:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:1; CPU 3 Run Time:2; CPU 4 Idle Time:2
+Time 225:  Arrival: Overall Job:1, Job B:33, Processing Time 2
+Time 225:- Begin Processing Job:112, Job B:33 in CPU 4
+Time 225:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Run Time:2; CPU 3 Run Time:3; CPU 4 Run Time:0
+Time 226:  Complete Processing Job:110, Job A:46
+Time 226:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Run Time:3; CPU 3 Idle Time:0; CPU 4 Run Time:1
+Time 227:  Complete Processing Job:112, Job B:33
+Time 227:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Run Time:4; CPU 3 Idle Time:1; CPU 4 Idle Time:0
+Time 228:  Arrival: Overall Job:1, Job A:47, Processing Time 3
+Time 228:- Begin Processing Job:113, Job A:47 in CPU 3
+Time 228:  Queue: Empty; CPU 1 Run Time:10; CPU 2 Run Time:5; CPU 3 Run Time:0; CPU 4 Idle Time:1
+Time 229:  Queue: Empty; CPU 1 Run Time:11; CPU 2 Run Time:6; CPU 3 Run Time:1; CPU 4 Idle Time:2
+Time 230:  Queue: Empty; CPU 1 Run Time:12; CPU 2 Run Time:7; CPU 3 Run Time:2; CPU 4 Idle Time:3
+Time 231:  Complete Processing Job:113, Job A:47
+Time 231:  Queue: Empty; CPU 1 Run Time:13; CPU 2 Run Time:8; CPU 3 Idle Time:0; CPU 4 Idle Time:4
+Time 232:  Arrival: Overall Job:1, Job A:48, Processing Time 2
+Time 232:- Begin Processing Job:114, Job A:48 in CPU 3
+Time 232:  Queue: Empty; CPU 1 Run Time:14; CPU 2 Run Time:9; CPU 3 Run Time:0; CPU 4 Idle Time:5
+Time 233:  Arrival: Overall Job:1, Job B:34, Processing Time 4
+Time 233:  Complete Processing Job:107, Job D:12
+Time 233:- Begin Processing Job:115, Job B:34 in CPU 4
+Time 233:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:10; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 234:  Arrival: Overall Job:1, Job D:13, Processing Time 11
+Time 234:  Arrival: Overall Job:2, Job C:22, Processing Time 7
+Time 234:- Begin Processing Job:117, Job D:13 in CPU 1
+Time 234:  Complete Processing Job:114, Job A:48
+Time 234:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:11; CPU 3 Idle Time:0; CPU 4 Run Time:1
+Time 235:  Complete Processing Job:111, Job C:21
+Time 235:- Begin Processing Job:117, Job C:22 in CPU 3
+Time 235:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Run Time:2
+Time 236:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Idle Time:1; CPU 3 Run Time:1; CPU 4 Run Time:3
+Time 237:  Arrival: Overall Job:1, Job A:49, Processing Time 3
+Time 237:- Begin Processing Job:118, Job A:49 in CPU 2
+Time 237:  Complete Processing Job:115, Job B:34
+Time 237:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:0; CPU 3 Run Time:2; CPU 4 Idle Time:0
+Time 238:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:1; CPU 3 Run Time:3; CPU 4 Idle Time:1
+Time 239:  Arrival: Overall Job:1, Job B:35, Processing Time 5
+Time 239:- Begin Processing Job:119, Job B:35 in CPU 4
+Time 239:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:2; CPU 3 Run Time:4; CPU 4 Run Time:0
+Time 240:  Complete Processing Job:118, Job A:49
+Time 240:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Idle Time:0; CPU 3 Run Time:5; CPU 4 Run Time:1
+Time 241:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Idle Time:1; CPU 3 Run Time:6; CPU 4 Run Time:2
+Time 242:  Complete Processing Job:117, Job C:22
+Time 242:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Idle Time:2; CPU 3 Idle Time:0; CPU 4 Run Time:3
+Time 243:  Arrival: Overall Job:1, Job A:50, Processing Time 5
+Time 243:- Begin Processing Job:120, Job A:50 in CPU 2
+Time 243:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Run Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:4
+Time 244:  Complete Processing Job:119, Job B:35
+Time 244:  Queue: Empty; CPU 1 Run Time:10; CPU 2 Run Time:1; CPU 3 Idle Time:2; CPU 4 Idle Time:0
+Time 245:  Complete Processing Job:116, Job D:13
+Time 245:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Idle Time:3; CPU 4 Idle Time:1
+Time 246:  Arrival: Overall Job:1, Job B:36, Processing Time 7
+Time 246:- Begin Processing Job:121, Job B:36 in CPU 1
+Time 246:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:3; CPU 3 Idle Time:4; CPU 4 Idle Time:2
+Time 247:  Arrival: Overall Job:1, Job A:51, Processing Time 3
+Time 247:- Begin Processing Job:122, Job A:51 in CPU 3
+Time 247:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:4; CPU 3 Run Time:0; CPU 4 Idle Time:3
+Time 248:  Complete Processing Job:120, Job A:50
+Time 248:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Idle Time:4
+Time 249:  Arrival: Overall Job:1, Job D:14, Processing Time 13
+Time 249:- Begin Processing Job:123, Job D:14 in CPU 2
+Time 249:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:0; CPU 3 Run Time:2; CPU 4 Idle Time:5
+Time 250:  Complete Processing Job:122, Job A:51
+Time 250:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:1; CPU 3 Idle Time:0; CPU 4 Idle Time:6
+Time 251:  Arrival: Overall Job:1, Job C:23, Processing Time 11
+Time 251:- Begin Processing Job:124, Job C:23 in CPU 3
+Time 251:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:2; CPU 3 Run Time:0; CPU 4 Idle Time:7
+Time 252:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:3; CPU 3 Run Time:1; CPU 4 Idle Time:8
+Time 253:  Arrival: Overall Job:1, Job B:37, Processing Time 6
+Time 253:  Arrival: Overall Job:2, Job A:52, Processing Time 4
+Time 253:  Complete Processing Job:121, Job B:36
+Time 253:- Begin Processing Job:126, Job B:37 in CPU 4
+Time 253:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:4; CPU 3 Run Time:2; CPU 4 Run Time:0
+Time 254:- Begin Processing Job:126, Job A:52 in CPU 1
+Time 254:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:5; CPU 3 Run Time:3; CPU 4 Run Time:1
+Time 255:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:6; CPU 3 Run Time:4; CPU 4 Run Time:2
+Time 256:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:7; CPU 3 Run Time:5; CPU 4 Run Time:3
+Time 257:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:8; CPU 3 Run Time:6; CPU 4 Run Time:4
+Time 258:  Complete Processing Job:126, Job A:52
+Time 258:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:9; CPU 3 Run Time:7; CPU 4 Run Time:5
+Time 259:  Arrival: Overall Job:1, Job A:53, Processing Time 4
+Time 259:- Begin Processing Job:127, Job A:53 in CPU 1
+Time 259:  Complete Processing Job:125, Job B:37
+Time 259:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:10; CPU 3 Run Time:8; CPU 4 Idle Time:0
+Time 260:  Arrival: Overall Job:1, Job B:38, Processing Time 4
+Time 260:- Begin Processing Job:128, Job B:38 in CPU 4
+Time 260:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:11; CPU 3 Run Time:9; CPU 4 Run Time:0
+Time 261:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:12; CPU 3 Run Time:10; CPU 4 Run Time:1
+Time 262:  Arrival: Overall Job:1, Job C:24, Processing Time 6
+Time 262:  Complete Processing Job:123, Job D:14
+Time 262:  Complete Processing Job:124, Job C:23
+Time 262:  Queue: 1 Job; CPU 1 Run Time:3; CPU 2 Idle Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:2
+Time 263:  Complete Processing Job:127, Job A:53
+Time 263:- Begin Processing Job:129, Job C:24 in CPU 2
+Time 263:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:3
+Time 264:  Arrival: Overall Job:1, Job A:54, Processing Time 3
+Time 264:- Begin Processing Job:130, Job A:54 in CPU 1
+Time 264:  Complete Processing Job:128, Job B:38
+Time 264:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:1; CPU 3 Idle Time:2; CPU 4 Idle Time:0
+Time 265:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:2; CPU 3 Idle Time:3; CPU 4 Idle Time:1
+Time 266:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:3; CPU 3 Idle Time:4; CPU 4 Idle Time:2
+Time 267:  Complete Processing Job:130, Job A:54
+Time 267:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:4; CPU 3 Idle Time:5; CPU 4 Idle Time:3
+Time 268:  Arrival: Overall Job:1, Job D:15, Processing Time 17
+Time 268:  Arrival: Overall Job:2, Job A:55, Processing Time 5
+Time 268:  Arrival: Overall Job:3, Job B:39, Processing Time 2
+Time 268:- Begin Processing Job:133, Job D:15 in CPU 1
+Time 268:- Begin Processing Job:133, Job A:55 in CPU 3
+Time 268:- Begin Processing Job:133, Job B:39 in CPU 4
+Time 268:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:5; CPU 3 Run Time:0; CPU 4 Run Time:0
+Time 269:  Complete Processing Job:129, Job C:24
+Time 269:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Run Time:1
+Time 270:  Arrival: Overall Job:1, Job C:25, Processing Time 7
+Time 270:- Begin Processing Job:134, Job C:25 in CPU 2
+Time 270:  Complete Processing Job:133, Job B:39
+Time 270:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:0; CPU 3 Run Time:2; CPU 4 Idle Time:0
+Time 271:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:1; CPU 3 Run Time:3; CPU 4 Idle Time:1
+Time 272:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:2; CPU 3 Run Time:4; CPU 4 Idle Time:2
+Time 273:  Complete Processing Job:132, Job A:55
+Time 273:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:3; CPU 3 Idle Time:0; CPU 4 Idle Time:3
+Time 274:  Arrival: Overall Job:1, Job A:56, Processing Time 2
+Time 274:- Begin Processing Job:135, Job A:56 in CPU 3
+Time 274:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:4; CPU 3 Run Time:0; CPU 4 Idle Time:4
+Time 275:  Arrival: Overall Job:1, Job B:40, Processing Time 4
+Time 275:- Begin Processing Job:136, Job B:40 in CPU 4
+Time 275:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Run Time:5; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 276:  Complete Processing Job:135, Job A:56
+Time 276:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Run Time:6; CPU 3 Idle Time:0; CPU 4 Run Time:1
+Time 277:  Complete Processing Job:134, Job C:25
+Time 277:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Idle Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:2
+Time 278:  Arrival: Overall Job:1, Job C:26, Processing Time 11
+Time 278:- Begin Processing Job:137, Job C:26 in CPU 2
+Time 278:  Queue: Empty; CPU 1 Run Time:10; CPU 2 Run Time:0; CPU 3 Idle Time:2; CPU 4 Run Time:3
+Time 279:  Complete Processing Job:136, Job B:40
+Time 279:  Queue: Empty; CPU 1 Run Time:11; CPU 2 Run Time:1; CPU 3 Idle Time:3; CPU 4 Idle Time:0
+Time 280:  Arrival: Overall Job:1, Job A:57, Processing Time 1
+Time 280:- Begin Processing Job:138, Job A:57 in CPU 3
+Time 280:  Queue: Empty; CPU 1 Run Time:12; CPU 2 Run Time:2; CPU 3 Run Time:0; CPU 4 Idle Time:1
+Time 281:  Arrival: Overall Job:1, Job B:41, Processing Time 5
+Time 281:  Complete Processing Job:138, Job A:57
+Time 281:- Begin Processing Job:139, Job B:41 in CPU 4
+Time 281:  Queue: Empty; CPU 1 Run Time:13; CPU 2 Run Time:3; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 282:  Queue: Empty; CPU 1 Run Time:14; CPU 2 Run Time:4; CPU 3 Idle Time:1; CPU 4 Run Time:1
+Time 283:  Queue: Empty; CPU 1 Run Time:15; CPU 2 Run Time:5; CPU 3 Idle Time:2; CPU 4 Run Time:2
+Time 284:  Arrival: Overall Job:1, Job A:58, Processing Time 4
+Time 284:- Begin Processing Job:140, Job A:58 in CPU 3
+Time 284:  Queue: Empty; CPU 1 Run Time:16; CPU 2 Run Time:6; CPU 3 Run Time:0; CPU 4 Run Time:3
+Time 285:  Complete Processing Job:131, Job D:15
+Time 285:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:7; CPU 3 Run Time:1; CPU 4 Run Time:4
+Time 286:  Complete Processing Job:139, Job B:41
+Time 286:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:8; CPU 3 Run Time:2; CPU 4 Idle Time:0
+Time 287:  Arrival: Overall Job:1, Job B:42, Processing Time 3
+Time 287:- Begin Processing Job:141, Job B:42 in CPU 1
+Time 287:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:9; CPU 3 Run Time:3; CPU 4 Idle Time:1
+Time 288:  Complete Processing Job:140, Job A:58
+Time 288:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:10; CPU 3 Idle Time:0; CPU 4 Idle Time:2
+Time 289:  Arrival: Overall Job:1, Job C:27, Processing Time 10
+Time 289:  Arrival: Overall Job:2, Job A:59, Processing Time 5
+Time 289:  Complete Processing Job:137, Job C:26
+Time 289:- Begin Processing Job:143, Job C:27 in CPU 3
+Time 289:- Begin Processing Job:143, Job A:59 in CPU 4
+Time 289:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Run Time:0
+Time 290:  Arrival: Overall Job:1, Job D:16, Processing Time 8
+Time 290:  Complete Processing Job:141, Job B:42
+Time 290:- Begin Processing Job:144, Job D:16 in CPU 2
+Time 290:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:0; CPU 3 Run Time:1; CPU 4 Run Time:1
+Time 291:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:1; CPU 3 Run Time:2; CPU 4 Run Time:2
+Time 292:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Run Time:2; CPU 3 Run Time:3; CPU 4 Run Time:3
+Time 293:  Queue: Empty; CPU 1 Idle Time:3; CPU 2 Run Time:3; CPU 3 Run Time:4; CPU 4 Run Time:4
+Time 294:  Arrival: Overall Job:1, Job C:28, Processing Time 11
+Time 294:  Arrival: Overall Job:2, Job B:43, Processing Time 3
+Time 294:- Begin Processing Job:146, Job C:28 in CPU 1
+Time 294:  Complete Processing Job:143, Job A:59
+Time 294:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:4; CPU 3 Run Time:5; CPU 4 Idle Time:0
+Time 295:  Arrival: Overall Job:2, Job A:60, Processing Time 3
+Time 295:- Begin Processing Job:147, Job B:43 in CPU 4
+Time 295:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Run Time:5; CPU 3 Run Time:6; CPU 4 Run Time:0
+Time 296:  Queue: 1 Job; CPU 1 Run Time:2; CPU 2 Run Time:6; CPU 3 Run Time:7; CPU 4 Run Time:1
+Time 297:  Queue: 1 Job; CPU 1 Run Time:3; CPU 2 Run Time:7; CPU 3 Run Time:8; CPU 4 Run Time:2
+Time 298:  Complete Processing Job:144, Job D:16
+Time 298:  Complete Processing Job:146, Job B:43
+Time 298:  Queue: 1 Job; CPU 1 Run Time:4; CPU 2 Idle Time:0; CPU 3 Run Time:9; CPU 4 Idle Time:0
+Time 299:  Arrival: Overall Job:2, Job C:29, Processing Time 10
+Time 299:  Arrival: Overall Job:3, Job A:61, Processing Time 3
+Time 299:- Begin Processing Job:149, Job A:60 in CPU 2
+Time 299:  Complete Processing Job:142, Job C:27
+Time 299:- Begin Processing Job:149, Job C:29 in CPU 4
+Time 299:  Queue: 1 Job; CPU 1 Run Time:5; CPU 2 Run Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 300:  Arrival: Overall Job:2, Job B:44, Processing Time 8
+Time 300:- Begin Processing Job:150, Job A:61 in CPU 3
+Time 300:  Queue: 1 Job; CPU 1 Run Time:6; CPU 2 Run Time:1; CPU 3 Run Time:0; CPU 4 Run Time:1
+Time 301:  Queue: 1 Job; CPU 1 Run Time:7; CPU 2 Run Time:2; CPU 3 Run Time:1; CPU 4 Run Time:2
+Time 302:  Complete Processing Job:147, Job A:60
+Time 302:  Queue: 1 Job; CPU 1 Run Time:8; CPU 2 Idle Time:0; CPU 3 Run Time:2; CPU 4 Run Time:3
+Time 303:  Arrival: Overall Job:2, Job A:62, Processing Time 4
+Time 303:- Begin Processing Job:151, Job B:44 in CPU 2
+Time 303:  Complete Processing Job:149, Job A:61
+Time 303:  Queue: 1 Job; CPU 1 Run Time:9; CPU 2 Run Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:4
+Time 304:- Begin Processing Job:151, Job A:62 in CPU 3
+Time 304:  Queue: Empty; CPU 1 Run Time:10; CPU 2 Run Time:1; CPU 3 Run Time:0; CPU 4 Run Time:5
+Time 305:  Complete Processing Job:145, Job C:28
+Time 305:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Run Time:1; CPU 4 Run Time:6
+Time 306:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:3; CPU 3 Run Time:2; CPU 4 Run Time:7
+Time 307:  Arrival: Overall Job:1, Job D:17, Processing Time 13
+Time 307:  Arrival: Overall Job:2, Job B:45, Processing Time 4
+Time 307:- Begin Processing Job:153, Job D:17 in CPU 1
+Time 307:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:4; CPU 3 Run Time:3; CPU 4 Run Time:8
+Time 308:  Arrival: Overall Job:2, Job A:63, Processing Time 4
+Time 308:  Complete Processing Job:151, Job A:62
+Time 308:  Queue: 2 Job; CPU 1 Run Time:1; CPU 2 Run Time:5; CPU 3 Idle Time:0; CPU 4 Run Time:9
+Time 309:- Begin Processing Job:154, Job B:45 in CPU 3
+Time 309:  Complete Processing Job:148, Job C:29
+Time 309:  Queue: 1 Job; CPU 1 Run Time:2; CPU 2 Run Time:6; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 310:- Begin Processing Job:154, Job A:63 in CPU 4
+Time 310:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:7; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 311:  Complete Processing Job:150, Job B:44
+Time 311:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Idle Time:0; CPU 3 Run Time:2; CPU 4 Run Time:1
+Time 312:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Idle Time:1; CPU 3 Run Time:3; CPU 4 Run Time:2
+Time 313:  Complete Processing Job:153, Job B:45
+Time 313:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Idle Time:2; CPU 3 Idle Time:0; CPU 4 Run Time:3
+Time 314:  Arrival: Overall Job:1, Job A:64, Processing Time 1
+Time 314:- Begin Processing Job:155, Job A:64 in CPU 2
+Time 314:  Complete Processing Job:154, Job A:63
+Time 314:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Run Time:0; CPU 3 Idle Time:1; CPU 4 Idle Time:0
+Time 315:  Arrival: Overall Job:1, Job B:46, Processing Time 4
+Time 315:  Complete Processing Job:155, Job A:64
+Time 315:- Begin Processing Job:156, Job B:46 in CPU 3
+Time 315:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:1
+Time 316:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Idle Time:1; CPU 3 Run Time:1; CPU 4 Idle Time:2
+Time 317:  Arrival: Overall Job:1, Job C:30, Processing Time 10
+Time 317:- Begin Processing Job:157, Job C:30 in CPU 2
+Time 317:  Queue: Empty; CPU 1 Run Time:10; CPU 2 Run Time:0; CPU 3 Run Time:2; CPU 4 Idle Time:3
+Time 318:  Queue: Empty; CPU 1 Run Time:11; CPU 2 Run Time:1; CPU 3 Run Time:3; CPU 4 Idle Time:4
+Time 319:  Arrival: Overall Job:1, Job A:65, Processing Time 3
+Time 319:  Complete Processing Job:156, Job B:46
+Time 319:- Begin Processing Job:158, Job A:65 in CPU 4
+Time 319:  Queue: Empty; CPU 1 Run Time:12; CPU 2 Run Time:2; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 320:  Complete Processing Job:152, Job D:17
+Time 320:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:3; CPU 3 Idle Time:1; CPU 4 Run Time:1
+Time 321:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:4; CPU 3 Idle Time:2; CPU 4 Run Time:2
+Time 322:  Arrival: Overall Job:1, Job C:31, Processing Time 6
+Time 322:  Arrival: Overall Job:2, Job B:47, Processing Time 4
+Time 322:- Begin Processing Job:160, Job C:31 in CPU 1
+Time 322:- Begin Processing Job:160, Job B:47 in CPU 3
+Time 322:  Complete Processing Job:158, Job A:65
+Time 322:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:5; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 323:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:6; CPU 3 Run Time:1; CPU 4 Idle Time:1
+Time 324:  Arrival: Overall Job:1, Job A:66, Processing Time 1
+Time 324:- Begin Processing Job:161, Job A:66 in CPU 4
+Time 324:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:7; CPU 3 Run Time:2; CPU 4 Run Time:0
+Time 325:  Arrival: Overall Job:1, Job D:18, Processing Time 8
+Time 325:  Complete Processing Job:161, Job A:66
+Time 325:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:8; CPU 3 Run Time:3; CPU 4 Idle Time:0
+Time 326:  Complete Processing Job:160, Job B:47
+Time 326:- Begin Processing Job:162, Job C:31 in CPU 4
+Time 326:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:9; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 327:  Complete Processing Job:157, Job C:30
+Time 327:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Idle Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:1
+Time 328:  Arrival: Overall Job:1, Job B:48, Processing Time 5
+Time 328:- Begin Processing Job:163, Job B:48 in CPU 2
+Time 328:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:0; CPU 3 Idle Time:2; CPU 4 Run Time:2
+Time 329:  Arrival: Overall Job:1, Job A:67, Processing Time 3
+Time 329:- Begin Processing Job:164, Job A:67 in CPU 3
+Time 329:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:1; CPU 3 Run Time:0; CPU 4 Run Time:3
+Time 330:  Complete Processing Job:159, Job C:31
+Time 330:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:2; CPU 3 Run Time:1; CPU 4 Idle Time:0
+Time 331:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:3; CPU 3 Run Time:2; CPU 4 Idle Time:1
+Time 332:  Complete Processing Job:164, Job A:67
+Time 332:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Run Time:4; CPU 3 Idle Time:0; CPU 4 Idle Time:2
+Time 333:  Complete Processing Job:162, Job D:18
+Time 333:  Complete Processing Job:163, Job B:48
+Time 333:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Idle Time:0; CPU 3 Idle Time:1; CPU 4 Idle Time:3
+Time 334:  Arrival: Overall Job:1, Job A:68, Processing Time 2
+Time 334:- Begin Processing Job:165, Job A:68 in CPU 1
+Time 334:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:1; CPU 3 Idle Time:2; CPU 4 Idle Time:4
+Time 335:  Arrival: Overall Job:1, Job C:32, Processing Time 6
+Time 335:  Arrival: Overall Job:2, Job B:49, Processing Time 6
+Time 335:- Begin Processing Job:167, Job C:32 in CPU 2
+Time 335:- Begin Processing Job:167, Job B:49 in CPU 3
+Time 335:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:5
+Time 336:  Complete Processing Job:165, Job A:68
+Time 336:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:1; CPU 3 Run Time:1; CPU 4 Idle Time:6
+Time 337:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:2; CPU 3 Run Time:2; CPU 4 Idle Time:7
+Time 338:  Arrival: Overall Job:1, Job A:69, Processing Time 3
+Time 338:- Begin Processing Job:168, Job A:69 in CPU 1
+Time 338:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:3; CPU 3 Run Time:3; CPU 4 Idle Time:8
+Time 339:  Arrival: Overall Job:1, Job D:19, Processing Time 14
+Time 339:- Begin Processing Job:169, Job D:19 in CPU 4
+Time 339:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:4; CPU 3 Run Time:4; CPU 4 Run Time:0
+Time 340:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:5; CPU 3 Run Time:5; CPU 4 Run Time:1
+Time 341:  Complete Processing Job:168, Job A:69
+Time 341:  Complete Processing Job:166, Job C:32
+Time 341:  Complete Processing Job:167, Job B:49
+Time 341:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Idle Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:2
+Time 342:  Arrival: Overall Job:1, Job A:70, Processing Time 2
+Time 342:  Arrival: Overall Job:2, Job B:50, Processing Time 4
+Time 342:- Begin Processing Job:171, Job A:70 in CPU 1
+Time 342:- Begin Processing Job:171, Job B:50 in CPU 2
+Time 342:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:3
+Time 343:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:1; CPU 3 Idle Time:2; CPU 4 Run Time:4
+Time 344:  Arrival: Overall Job:1, Job C:33, Processing Time 10
+Time 344:  Complete Processing Job:170, Job A:70
+Time 344:- Begin Processing Job:172, Job C:33 in CPU 3
+Time 344:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Run Time:0; CPU 4 Run Time:5
+Time 345:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:3; CPU 3 Run Time:1; CPU 4 Run Time:6
+Time 346:  Complete Processing Job:171, Job B:50
+Time 346:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Idle Time:0; CPU 3 Run Time:2; CPU 4 Run Time:7
+Time 347:  Queue: Empty; CPU 1 Idle Time:3; CPU 2 Idle Time:1; CPU 3 Run Time:3; CPU 4 Run Time:8
+Time 348:  Arrival: Overall Job:1, Job C:34, Processing Time 10
+Time 348:  Arrival: Overall Job:2, Job A:71, Processing Time 2
+Time 348:- Begin Processing Job:174, Job C:34 in CPU 1
+Time 348:- Begin Processing Job:174, Job A:71 in CPU 2
+Time 348:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:0; CPU 3 Run Time:4; CPU 4 Run Time:9
+Time 349:  Arrival: Overall Job:1, Job B:51, Processing Time 6
+Time 349:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Run Time:1; CPU 3 Run Time:5; CPU 4 Run Time:10
+Time 350:  Complete Processing Job:174, Job A:71
+Time 350:  Queue: 1 Job; CPU 1 Run Time:2; CPU 2 Idle Time:0; CPU 3 Run Time:6; CPU 4 Run Time:11
+Time 351:- Begin Processing Job:175, Job B:51 in CPU 2
+Time 351:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:0; CPU 3 Run Time:7; CPU 4 Run Time:12
+Time 352:  Arrival: Overall Job:1, Job C:35, Processing Time 10
+Time 352:  Queue: 1 Job; CPU 1 Run Time:4; CPU 2 Run Time:1; CPU 3 Run Time:8; CPU 4 Run Time:13
+Time 353:  Complete Processing Job:169, Job D:19
+Time 353:  Queue: 1 Job; CPU 1 Run Time:5; CPU 2 Run Time:2; CPU 3 Run Time:9; CPU 4 Idle Time:0
+Time 354:  Arrival: Overall Job:2, Job D:20, Processing Time 15
+Time 354:  Arrival: Overall Job:3, Job A:72, Processing Time 3
+Time 354:  Complete Processing Job:172, Job C:33
+Time 354:- Begin Processing Job:178, Job D:20 in CPU 4
+Time 354:  Queue: 2 Job; CPU 1 Run Time:6; CPU 2 Run Time:3; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 355:- Begin Processing Job:178, Job C:35 in CPU 3
+Time 355:  Queue: 1 Job; CPU 1 Run Time:7; CPU 2 Run Time:4; CPU 3 Run Time:0; CPU 4 Run Time:1
+Time 356:  Queue: 1 Job; CPU 1 Run Time:8; CPU 2 Run Time:5; CPU 3 Run Time:1; CPU 4 Run Time:2
+Time 357:  Arrival: Overall Job:2, Job B:52, Processing Time 5
+Time 357:  Complete Processing Job:175, Job B:51
+Time 357:  Queue: 2 Job; CPU 1 Run Time:9; CPU 2 Idle Time:0; CPU 3 Run Time:2; CPU 4 Run Time:3
+Time 358:  Arrival: Overall Job:3, Job C:36, Processing Time 8
+Time 358:  Complete Processing Job:173, Job C:34
+Time 358:- Begin Processing Job:180, Job A:72 in CPU 2
+Time 358:  Queue: 2 Job; CPU 1 Idle Time:0; CPU 2 Run Time:0; CPU 3 Run Time:3; CPU 4 Run Time:4
+Time 359:  Arrival: Overall Job:3, Job A:73, Processing Time 1
+Time 359:- Begin Processing Job:181, Job B:52 in CPU 1
+Time 359:  Queue: 2 Job; CPU 1 Run Time:0; CPU 2 Run Time:1; CPU 3 Run Time:4; CPU 4 Run Time:5
+Time 360:  Queue: 2 Job; CPU 1 Run Time:1; CPU 2 Run Time:2; CPU 3 Run Time:5; CPU 4 Run Time:6
+Time 361:  Complete Processing Job:178, Job A:72
+Time 361:  Queue: 2 Job; CPU 1 Run Time:2; CPU 2 Idle Time:0; CPU 3 Run Time:6; CPU 4 Run Time:7
+Time 362:- Begin Processing Job:181, Job C:36 in CPU 2
+Time 362:  Queue: 1 Job; CPU 1 Run Time:3; CPU 2 Run Time:0; CPU 3 Run Time:7; CPU 4 Run Time:8
+Time 363:  Arrival: Overall Job:2, Job B:53, Processing Time 8
+Time 363:  Queue: 2 Job; CPU 1 Run Time:4; CPU 2 Run Time:1; CPU 3 Run Time:8; CPU 4 Run Time:9
+Time 364:  Arrival: Overall Job:3, Job C:37, Processing Time 11
+Time 364:  Complete Processing Job:179, Job B:52
+Time 364:  Queue: 3 Job; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Run Time:9; CPU 4 Run Time:10
+Time 365:  Arrival: Overall Job:4, Job A:74, Processing Time 5
+Time 365:- Begin Processing Job:184, Job A:73 in CPU 1
+Time 365:  Complete Processing Job:176, Job C:35
+Time 365:  Queue: 3 Job; CPU 1 Run Time:0; CPU 2 Run Time:3; CPU 3 Idle Time:0; CPU 4 Run Time:11
+Time 366:  Complete Processing Job:181, Job A:73
+Time 366:- Begin Processing Job:184, Job B:53 in CPU 3
+Time 366:  Queue: 2 Job; CPU 1 Idle Time:0; CPU 2 Run Time:4; CPU 3 Run Time:0; CPU 4 Run Time:12
+Time 367:- Begin Processing Job:184, Job C:37 in CPU 1
+Time 367:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:5; CPU 3 Run Time:1; CPU 4 Run Time:13
+Time 368:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Run Time:6; CPU 3 Run Time:2; CPU 4 Run Time:14
+Time 369:  Complete Processing Job:177, Job D:20
+Time 369:  Queue: 1 Job; CPU 1 Run Time:2; CPU 2 Run Time:7; CPU 3 Run Time:3; CPU 4 Idle Time:0
+Time 370:  Arrival: Overall Job:2, Job B:54, Processing Time 5
+Time 370:  Complete Processing Job:180, Job C:36
+Time 370:- Begin Processing Job:185, Job A:74 in CPU 4
+Time 370:  Queue: 1 Job; CPU 1 Run Time:3; CPU 2 Idle Time:0; CPU 3 Run Time:4; CPU 4 Run Time:0
+Time 371:  Arrival: Overall Job:2, Job A:75, Processing Time 2
+Time 371:  Arrival: Overall Job:3, Job C:38, Processing Time 8
+Time 371:- Begin Processing Job:187, Job B:54 in CPU 2
+Time 371:  Queue: 2 Job; CPU 1 Run Time:4; CPU 2 Run Time:0; CPU 3 Run Time:5; CPU 4 Run Time:1
+Time 372:  Queue: 2 Job; CPU 1 Run Time:5; CPU 2 Run Time:1; CPU 3 Run Time:6; CPU 4 Run Time:2
+Time 373:  Queue: 2 Job; CPU 1 Run Time:6; CPU 2 Run Time:2; CPU 3 Run Time:7; CPU 4 Run Time:3
+Time 374:  Complete Processing Job:182, Job B:53
+Time 374:  Queue: 2 Job; CPU 1 Run Time:7; CPU 2 Run Time:3; CPU 3 Idle Time:0; CPU 4 Run Time:4
+Time 375:- Begin Processing Job:187, Job A:75 in CPU 3
+Time 375:  Complete Processing Job:184, Job A:74
+Time 375:  Queue: 1 Job; CPU 1 Run Time:8; CPU 2 Run Time:4; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 376:  Arrival: Overall Job:2, Job B:55, Processing Time 4
+Time 376:  Complete Processing Job:185, Job B:54
+Time 376:- Begin Processing Job:188, Job C:38 in CPU 4
+Time 376:  Queue: 1 Job; CPU 1 Run Time:9; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 377:  Arrival: Overall Job:2, Job D:21, Processing Time 17
+Time 377:  Arrival: Overall Job:3, Job A:76, Processing Time 4
+Time 377:- Begin Processing Job:190, Job D:21 in CPU 2
+Time 377:  Complete Processing Job:186, Job A:75
+Time 377:  Queue: 2 Job; CPU 1 Run Time:10; CPU 2 Run Time:0; CPU 3 Idle Time:0; CPU 4 Run Time:1
+Time 378:  Arrival: Overall Job:3, Job C:39, Processing Time 10
+Time 378:  Complete Processing Job:183, Job C:37
+Time 378:- Begin Processing Job:191, Job B:55 in CPU 3
+Time 378:  Queue: 2 Job; CPU 1 Idle Time:0; CPU 2 Run Time:1; CPU 3 Run Time:0; CPU 4 Run Time:2
+Time 379:- Begin Processing Job:191, Job A:76 in CPU 1
+Time 379:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:2; CPU 3 Run Time:1; CPU 4 Run Time:3
+Time 380:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Run Time:3; CPU 3 Run Time:2; CPU 4 Run Time:4
+Time 381:  Arrival: Overall Job:2, Job A:77, Processing Time 5
+Time 381:  Queue: 2 Job; CPU 1 Run Time:2; CPU 2 Run Time:4; CPU 3 Run Time:3; CPU 4 Run Time:5
+Time 382:  Complete Processing Job:188, Job B:55
+Time 382:  Queue: 2 Job; CPU 1 Run Time:3; CPU 2 Run Time:5; CPU 3 Idle Time:0; CPU 4 Run Time:6
+Time 383:  Complete Processing Job:190, Job A:76
+Time 383:- Begin Processing Job:192, Job C:39 in CPU 3
+Time 383:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:6; CPU 3 Run Time:0; CPU 4 Run Time:7
+Time 384:  Arrival: Overall Job:2, Job B:56, Processing Time 5
+Time 384:- Begin Processing Job:193, Job A:77 in CPU 1
+Time 384:  Complete Processing Job:187, Job C:38
+Time 384:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:7; CPU 3 Run Time:1; CPU 4 Idle Time:0
+Time 385:  Arrival: Overall Job:2, Job A:78, Processing Time 4
+Time 385:- Begin Processing Job:194, Job B:56 in CPU 4
+Time 385:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Run Time:8; CPU 3 Run Time:2; CPU 4 Run Time:0
+Time 386:  Queue: 1 Job; CPU 1 Run Time:2; CPU 2 Run Time:9; CPU 3 Run Time:3; CPU 4 Run Time:1
+Time 387:  Queue: 1 Job; CPU 1 Run Time:3; CPU 2 Run Time:10; CPU 3 Run Time:4; CPU 4 Run Time:2
+Time 388:  Queue: 1 Job; CPU 1 Run Time:4; CPU 2 Run Time:11; CPU 3 Run Time:5; CPU 4 Run Time:3
+Time 389:  Complete Processing Job:192, Job A:77
+Time 389:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:12; CPU 3 Run Time:6; CPU 4 Run Time:4
+Time 390:  Arrival: Overall Job:2, Job A:79, Processing Time 1
+Time 390:  Arrival: Overall Job:3, Job B:57, Processing Time 5
+Time 390:- Begin Processing Job:196, Job A:78 in CPU 1
+Time 390:  Complete Processing Job:193, Job B:56
+Time 390:  Queue: 2 Job; CPU 1 Run Time:0; CPU 2 Run Time:13; CPU 3 Run Time:7; CPU 4 Idle Time:0
+Time 391:  Arrival: Overall Job:3, Job C:40, Processing Time 8
+Time 391:- Begin Processing Job:197, Job A:79 in CPU 4
+Time 391:  Queue: 2 Job; CPU 1 Run Time:1; CPU 2 Run Time:14; CPU 3 Run Time:8; CPU 4 Run Time:0
+Time 392:  Complete Processing Job:195, Job A:79
+Time 392:  Queue: 2 Job; CPU 1 Run Time:2; CPU 2 Run Time:15; CPU 3 Run Time:9; CPU 4 Idle Time:0
+Time 393:  Complete Processing Job:191, Job C:39
+Time 393:- Begin Processing Job:197, Job B:57 in CPU 4
+Time 393:  Queue: 1 Job; CPU 1 Run Time:3; CPU 2 Run Time:16; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 394:  Complete Processing Job:194, Job A:78
+Time 394:  Complete Processing Job:189, Job D:21
+Time 394:- Begin Processing Job:197, Job C:40 in CPU 3
+Time 394:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Run Time:1
+Time 395:  Arrival: Overall Job:1, Job A:80, Processing Time 2
+Time 395:- Begin Processing Job:198, Job A:80 in CPU 1
+Time 395:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:1; CPU 3 Run Time:1; CPU 4 Run Time:2
+Time 396:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:2; CPU 3 Run Time:2; CPU 4 Run Time:3
+Time 397:  Complete Processing Job:198, Job A:80
+Time 397:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Idle Time:3; CPU 3 Run Time:3; CPU 4 Run Time:4
+Time 398:  Arrival: Overall Job:1, Job C:41, Processing Time 9
+Time 398:  Arrival: Overall Job:2, Job B:58, Processing Time 6
+Time 398:- Begin Processing Job:200, Job C:41 in CPU 1
+Time 398:- Begin Processing Job:200, Job B:58 in CPU 2
+Time 398:  Complete Processing Job:196, Job B:57
+Time 398:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:0; CPU 3 Run Time:4; CPU 4 Idle Time:0
+Time 399:  Arrival: Overall Job:1, Job A:81, Processing Time 2
+Time 399:- Begin Processing Job:201, Job A:81 in CPU 4
+Time 399:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:1; CPU 3 Run Time:5; CPU 4 Run Time:0
+Time 400:  Arrival: Overall Job:1, Job D:22, Processing Time 11
+Time 400:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:2; CPU 3 Run Time:6; CPU 4 Run Time:1
+Time 401:  Complete Processing Job:201, Job A:81
+Time 401:  Queue: 1 Job; CPU 1 Run Time:1; CPU 2 Run Time:3; CPU 3 Run Time:7; CPU 4 Idle Time:0
+Time 402:  Complete Processing Job:197, Job C:40
+Time 402:- Begin Processing Job:202, Job C:41 in CPU 4
+Time 402:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:4; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 403:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:5; CPU 3 Idle Time:1; CPU 4 Run Time:1
+Time 404:  Complete Processing Job:200, Job B:58
+Time 404:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Idle Time:0; CPU 3 Idle Time:2; CPU 4 Run Time:2
+Time 405:  Arrival: Overall Job:1, Job A:82, Processing Time 1
+Time 405:  Arrival: Overall Job:2, Job B:59, Processing Time 8
+Time 405:- Begin Processing Job:204, Job A:82 in CPU 2
+Time 405:- Begin Processing Job:204, Job B:59 in CPU 3
+Time 405:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:0; CPU 3 Run Time:0; CPU 4 Run Time:3
+Time 406:  Complete Processing Job:203, Job A:82
+Time 406:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Run Time:4
+Time 407:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Idle Time:1; CPU 3 Run Time:2; CPU 4 Run Time:5
+Time 408:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Idle Time:2; CPU 3 Run Time:3; CPU 4 Run Time:6
+Time 409:  Arrival: Overall Job:1, Job A:83, Processing Time 5
+Time 409:- Begin Processing Job:205, Job A:83 in CPU 2
+Time 409:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Run Time:0; CPU 3 Run Time:4; CPU 4 Run Time:7
+Time 410:  Complete Processing Job:199, Job C:41
+Time 410:  Queue: Empty; CPU 1 Run Time:10; CPU 2 Run Time:1; CPU 3 Run Time:5; CPU 4 Idle Time:0
+Time 411:  Complete Processing Job:202, Job D:22
+Time 411:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Run Time:6; CPU 4 Idle Time:1
+Time 412:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:3; CPU 3 Run Time:7; CPU 4 Idle Time:2
+Time 413:  Arrival: Overall Job:1, Job C:42, Processing Time 10
+Time 413:  Arrival: Overall Job:2, Job A:84, Processing Time 5
+Time 413:  Arrival: Overall Job:3, Job B:60, Processing Time 8
+Time 413:- Begin Processing Job:208, Job C:42 in CPU 1
+Time 413:  Complete Processing Job:204, Job B:59
+Time 413:- Begin Processing Job:208, Job A:84 in CPU 4
+Time 413:  Queue: 1 Job; CPU 1 Run Time:0; CPU 2 Run Time:4; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 414:  Complete Processing Job:205, Job A:83
+Time 414:- Begin Processing Job:208, Job B:60 in CPU 3
+Time 414:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Run Time:1
+Time 415:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Idle Time:1; CPU 3 Run Time:1; CPU 4 Run Time:2
+Time 416:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Idle Time:2; CPU 3 Run Time:2; CPU 4 Run Time:3
+Time 417:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Idle Time:3; CPU 3 Run Time:3; CPU 4 Run Time:4
+Time 418:  Arrival: Overall Job:1, Job A:85, Processing Time 5
+Time 418:- Begin Processing Job:209, Job A:85 in CPU 2
+Time 418:  Complete Processing Job:207, Job A:84
+Time 418:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:0; CPU 3 Run Time:4; CPU 4 Idle Time:0
+Time 419:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:1; CPU 3 Run Time:5; CPU 4 Idle Time:1
+Time 420:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Run Time:2; CPU 3 Run Time:6; CPU 4 Idle Time:2
+Time 421:  Arrival: Overall Job:1, Job B:61, Processing Time 8
+Time 421:- Begin Processing Job:210, Job B:61 in CPU 4
+Time 421:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Run Time:3; CPU 3 Run Time:7; CPU 4 Run Time:0
+Time 422:  Complete Processing Job:208, Job B:60
+Time 422:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Run Time:4; CPU 3 Idle Time:0; CPU 4 Run Time:1
+Time 423:  Complete Processing Job:206, Job C:42
+Time 423:  Complete Processing Job:209, Job A:85
+Time 423:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Idle Time:0; CPU 3 Idle Time:1; CPU 4 Run Time:2
+Time 424:  Arrival: Overall Job:1, Job D:23, Processing Time 7
+Time 424:  Arrival: Overall Job:2, Job A:86, Processing Time 5
+Time 424:- Begin Processing Job:212, Job D:23 in CPU 1
+Time 424:- Begin Processing Job:212, Job A:86 in CPU 2
+Time 424:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:0; CPU 3 Idle Time:2; CPU 4 Run Time:3
+Time 425:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:1; CPU 3 Idle Time:3; CPU 4 Run Time:4
+Time 426:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:2; CPU 3 Idle Time:4; CPU 4 Run Time:5
+Time 427:  Arrival: Overall Job:1, Job B:62, Processing Time 2
+Time 427:- Begin Processing Job:213, Job B:62 in CPU 3
+Time 427:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:3; CPU 3 Run Time:0; CPU 4 Run Time:6
+Time 428:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:4; CPU 3 Run Time:1; CPU 4 Run Time:7
+Time 429:  Arrival: Overall Job:1, Job A:87, Processing Time 4
+Time 429:  Complete Processing Job:212, Job A:86
+Time 429:  Complete Processing Job:213, Job B:62
+Time 429:  Complete Processing Job:210, Job B:61
+Time 429:  Queue: 1 Job; CPU 1 Run Time:5; CPU 2 Idle Time:0; CPU 3 Idle Time:0; CPU 4 Idle Time:0
+Time 430:  Arrival: Overall Job:2, Job C:43, Processing Time 10
+Time 430:- Begin Processing Job:215, Job A:87 in CPU 2
+Time 430:- Begin Processing Job:215, Job C:43 in CPU 3
+Time 430:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Run Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:1
+Time 431:  Complete Processing Job:211, Job D:23
+Time 431:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:1; CPU 3 Run Time:1; CPU 4 Idle Time:2
+Time 432:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:2; CPU 3 Run Time:2; CPU 4 Idle Time:3
+Time 433:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Run Time:3; CPU 3 Run Time:3; CPU 4 Idle Time:4
+Time 434:  Arrival: Overall Job:1, Job A:88, Processing Time 1
+Time 434:- Begin Processing Job:216, Job A:88 in CPU 1
+Time 434:  Complete Processing Job:214, Job A:87
+Time 434:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:0; CPU 3 Run Time:4; CPU 4 Idle Time:5
+Time 435:  Arrival: Overall Job:1, Job B:63, Processing Time 8
+Time 435:  Complete Processing Job:216, Job A:88
+Time 435:- Begin Processing Job:217, Job B:63 in CPU 2
+Time 435:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:0; CPU 3 Run Time:5; CPU 4 Idle Time:6
+Time 436:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:1; CPU 3 Run Time:6; CPU 4 Idle Time:7
+Time 437:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Run Time:2; CPU 3 Run Time:7; CPU 4 Idle Time:8
+Time 438:  Queue: Empty; CPU 1 Idle Time:3; CPU 2 Run Time:3; CPU 3 Run Time:8; CPU 4 Idle Time:9
+Time 439:  Queue: Empty; CPU 1 Idle Time:4; CPU 2 Run Time:4; CPU 3 Run Time:9; CPU 4 Idle Time:10
+Time 440:  Arrival: Overall Job:1, Job A:89, Processing Time 5
+Time 440:- Begin Processing Job:218, Job A:89 in CPU 1
+Time 440:  Complete Processing Job:215, Job C:43
+Time 440:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:5; CPU 3 Idle Time:0; CPU 4 Idle Time:11
+Time 441:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:6; CPU 3 Idle Time:1; CPU 4 Idle Time:12
+Time 442:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:7; CPU 3 Idle Time:2; CPU 4 Idle Time:13
+Time 443:  Arrival: Overall Job:1, Job B:64, Processing Time 4
+Time 443:  Complete Processing Job:217, Job B:63
+Time 443:- Begin Processing Job:219, Job B:64 in CPU 3
+Time 443:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:14
+Time 444:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Idle Time:1; CPU 3 Run Time:1; CPU 4 Idle Time:15
+Time 445:  Arrival: Overall Job:1, Job A:90, Processing Time 3
+Time 445:  Complete Processing Job:218, Job A:89
+Time 445:- Begin Processing Job:220, Job A:90 in CPU 2
+Time 445:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:0; CPU 3 Run Time:2; CPU 4 Idle Time:16
+Time 446:  Arrival: Overall Job:1, Job C:44, Processing Time 12
+Time 446:- Begin Processing Job:221, Job C:44 in CPU 1
+Time 446:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:1; CPU 3 Run Time:3; CPU 4 Idle Time:17
+Time 447:  Complete Processing Job:219, Job B:64
+Time 447:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:2; CPU 3 Idle Time:0; CPU 4 Idle Time:18
+Time 448:  Arrival: Overall Job:1, Job D:24, Processing Time 9
+Time 448:  Complete Processing Job:220, Job A:90
+Time 448:- Begin Processing Job:222, Job D:24 in CPU 3
+Time 448:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:19
+Time 449:  Arrival: Overall Job:1, Job B:65, Processing Time 3
+Time 449:- Begin Processing Job:223, Job B:65 in CPU 2
+Time 449:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:0; CPU 3 Run Time:1; CPU 4 Idle Time:20
+Time 450:  Arrival: Overall Job:1, Job A:91, Processing Time 3
+Time 450:- Begin Processing Job:224, Job A:91 in CPU 4
+Time 450:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:1; CPU 3 Run Time:2; CPU 4 Run Time:0
+Time 451:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:2; CPU 3 Run Time:3; CPU 4 Run Time:1
+Time 452:  Complete Processing Job:223, Job B:65
+Time 452:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Idle Time:0; CPU 3 Run Time:4; CPU 4 Run Time:2
+Time 453:  Complete Processing Job:224, Job A:91
+Time 453:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Idle Time:1; CPU 3 Run Time:5; CPU 4 Idle Time:0
+Time 454:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Idle Time:2; CPU 3 Run Time:6; CPU 4 Idle Time:1
+Time 455:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Idle Time:3; CPU 3 Run Time:7; CPU 4 Idle Time:2
+Time 456:  Arrival: Overall Job:1, Job A:92, Processing Time 5
+Time 456:- Begin Processing Job:225, Job A:92 in CPU 2
+Time 456:  Queue: Empty; CPU 1 Run Time:10; CPU 2 Run Time:0; CPU 3 Run Time:8; CPU 4 Idle Time:3
+Time 457:  Arrival: Overall Job:1, Job B:66, Processing Time 5
+Time 457:  Complete Processing Job:222, Job D:24
+Time 457:- Begin Processing Job:226, Job B:66 in CPU 4
+Time 457:  Queue: Empty; CPU 1 Run Time:11; CPU 2 Run Time:1; CPU 3 Idle Time:0; CPU 4 Run Time:0
+Time 458:  Complete Processing Job:221, Job C:44
+Time 458:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Idle Time:1; CPU 4 Run Time:1
+Time 459:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:3; CPU 3 Idle Time:2; CPU 4 Run Time:2
+Time 460:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Run Time:4; CPU 3 Idle Time:3; CPU 4 Run Time:3
+Time 461:  Complete Processing Job:225, Job A:92
+Time 461:  Queue: Empty; CPU 1 Idle Time:3; CPU 2 Idle Time:0; CPU 3 Idle Time:4; CPU 4 Run Time:4
+Time 462:  Arrival: Overall Job:1, Job D:25, Processing Time 12
+Time 462:  Arrival: Overall Job:2, Job C:45, Processing Time 6
+Time 462:  Arrival: Overall Job:3, Job A:93, Processing Time 1
+Time 462:- Begin Processing Job:229, Job D:25 in CPU 1
+Time 462:- Begin Processing Job:229, Job C:45 in CPU 2
+Time 462:- Begin Processing Job:229, Job A:93 in CPU 3
+Time 462:  Complete Processing Job:226, Job B:66
+Time 462:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:0
+Time 463:  Complete Processing Job:229, Job A:93
+Time 463:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:1; CPU 3 Idle Time:0; CPU 4 Idle Time:1
+Time 464:  Arrival: Overall Job:1, Job B:67, Processing Time 5
+Time 464:- Begin Processing Job:230, Job B:67 in CPU 3
+Time 464:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:2; CPU 3 Run Time:0; CPU 4 Idle Time:2
+Time 465:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:3; CPU 3 Run Time:1; CPU 4 Idle Time:3
+Time 466:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:4; CPU 3 Run Time:2; CPU 4 Idle Time:4
+Time 467:  Arrival: Overall Job:1, Job A:94, Processing Time 1
+Time 467:- Begin Processing Job:231, Job A:94 in CPU 4
+Time 467:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:5; CPU 3 Run Time:3; CPU 4 Run Time:0
+Time 468:  Complete Processing Job:228, Job C:45
+Time 468:  Complete Processing Job:231, Job A:94
+Time 468:  Queue: Empty; CPU 1 Run Time:6; CPU 2 Idle Time:0; CPU 3 Run Time:4; CPU 4 Idle Time:0
+Time 469:  Complete Processing Job:230, Job B:67
+Time 469:  Queue: Empty; CPU 1 Run Time:7; CPU 2 Idle Time:1; CPU 3 Idle Time:0; CPU 4 Idle Time:1
+Time 470:  Queue: Empty; CPU 1 Run Time:8; CPU 2 Idle Time:2; CPU 3 Idle Time:1; CPU 4 Idle Time:2
+Time 471:  Queue: Empty; CPU 1 Run Time:9; CPU 2 Idle Time:3; CPU 3 Idle Time:2; CPU 4 Idle Time:3
+Time 472:  Arrival: Overall Job:1, Job B:68, Processing Time 5
+Time 472:  Arrival: Overall Job:2, Job A:95, Processing Time 1
+Time 472:- Begin Processing Job:233, Job B:68 in CPU 2
+Time 472:- Begin Processing Job:233, Job A:95 in CPU 3
+Time 472:  Queue: Empty; CPU 1 Run Time:10; CPU 2 Run Time:0; CPU 3 Run Time:0; CPU 4 Idle Time:4
+Time 473:  Complete Processing Job:233, Job A:95
+Time 473:  Queue: Empty; CPU 1 Run Time:11; CPU 2 Run Time:1; CPU 3 Idle Time:0; CPU 4 Idle Time:5
+Time 474:  Complete Processing Job:227, Job D:25
+Time 474:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Run Time:2; CPU 3 Idle Time:1; CPU 4 Idle Time:6
+Time 475:  Queue: Empty; CPU 1 Idle Time:1; CPU 2 Run Time:3; CPU 3 Idle Time:2; CPU 4 Idle Time:7
+Time 476:  Queue: Empty; CPU 1 Idle Time:2; CPU 2 Run Time:4; CPU 3 Idle Time:3; CPU 4 Idle Time:8
+Time 477:  Complete Processing Job:232, Job B:68
+Time 477:  Queue: Empty; CPU 1 Idle Time:3; CPU 2 Idle Time:0; CPU 3 Idle Time:4; CPU 4 Idle Time:9
+Time 478:  Arrival: Overall Job:1, Job A:96, Processing Time 4
+Time 478:  Arrival: Overall Job:2, Job B:69, Processing Time 3
+Time 478:- Begin Processing Job:235, Job A:96 in CPU 1
+Time 478:- Begin Processing Job:235, Job B:69 in CPU 2
+Time 478:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:0; CPU 3 Idle Time:5; CPU 4 Idle Time:10
+Time 479:  Arrival: Overall Job:1, Job D:26, Processing Time 10
+Time 479:- Begin Processing Job:236, Job D:26 in CPU 3
+Time 479:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:1; CPU 3 Run Time:0; CPU 4 Idle Time:11
+Time 480:  Arrival: Overall Job:1, Job C:46, Processing Time 10
+Time 480:- Begin Processing Job:237, Job C:46 in CPU 4
+Time 480:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:2; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 481:  Complete Processing Job:235, Job B:69
+Time 481:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Idle Time:0; CPU 3 Run Time:2; CPU 4 Run Time:1
+Time 482:  Complete Processing Job:234, Job A:96
+Time 482:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Idle Time:1; CPU 3 Run Time:3; CPU 4 Run Time:2
+Time 483:  Arrival: Overall Job:1, Job A:97, Processing Time 1
+Time 483:- Begin Processing Job:238, Job A:97 in CPU 1
+Time 483:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:2; CPU 3 Run Time:4; CPU 4 Run Time:3
+Time 484:  Complete Processing Job:238, Job A:97
+Time 484:  Queue: Empty; CPU 1 Idle Time:0; CPU 2 Idle Time:3; CPU 3 Run Time:5; CPU 4 Run Time:4
+Time 485:  Arrival: Overall Job:1, Job B:70, Processing Time 2
+Time 485:- Begin Processing Job:239, Job B:70 in CPU 1
+Time 485:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Idle Time:4; CPU 3 Run Time:6; CPU 4 Run Time:5
+Time 486:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Idle Time:5; CPU 3 Run Time:7; CPU 4 Run Time:6
+Time 487:  Arrival: Overall Job:1, Job A:98, Processing Time 5
+Time 487:  Arrival: Overall Job:2, Job C:47, Processing Time 6
+Time 487:  Complete Processing Job:239, Job B:70
+Time 487:- Begin Processing Job:241, Job A:98 in CPU 2
+Time 487:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:0; CPU 3 Run Time:8; CPU 4 Run Time:7
+Time 488:- Begin Processing Job:241, Job C:47 in CPU 1
+Time 488:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:1; CPU 3 Run Time:9; CPU 4 Run Time:8
+Time 489:  Complete Processing Job:236, Job D:26
+Time 489:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:2; CPU 3 Idle Time:0; CPU 4 Run Time:9
+Time 490:  Complete Processing Job:237, Job C:46
+Time 490:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:3; CPU 3 Idle Time:1; CPU 4 Idle Time:0
+Time 491:  Arrival: Overall Job:1, Job B:71, Processing Time 4
+Time 491:- Begin Processing Job:242, Job B:71 in CPU 3
+Time 491:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:4; CPU 3 Run Time:0; CPU 4 Idle Time:1
+Time 492:  Arrival: Overall Job:1, Job A:99, Processing Time 2
+Time 492:  Complete Processing Job:240, Job A:98
+Time 492:- Begin Processing Job:243, Job A:99 in CPU 4
+Time 492:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Idle Time:0; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 493:  Arrival: Overall Job:1, Job D:27, Processing Time 7
+Time 493:- Begin Processing Job:244, Job D:27 in CPU 2
+Time 493:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Run Time:0; CPU 3 Run Time:2; CPU 4 Run Time:1
+Time 494:  Arrival: Overall Job:1, Job C:48, Processing Time 9
+Time 494:  Complete Processing Job:241, Job C:47
+Time 494:  Complete Processing Job:243, Job A:99
+Time 494:  Queue: 1 Job; CPU 1 Idle Time:0; CPU 2 Run Time:1; CPU 3 Run Time:3; CPU 4 Idle Time:0
+Time 495:- Begin Processing Job:245, Job C:48 in CPU 1
+Time 495:  Complete Processing Job:242, Job B:71
+Time 495:  Queue: Empty; CPU 1 Run Time:0; CPU 2 Run Time:2; CPU 3 Idle Time:0; CPU 4 Idle Time:1
+Time 496:  Arrival: Overall Job:1, Job A:100, Processing Time 3
+Time 496:- Begin Processing Job:246, Job A:100 in CPU 3
+Time 496:  Queue: Empty; CPU 1 Run Time:1; CPU 2 Run Time:3; CPU 3 Run Time:0; CPU 4 Idle Time:2
+Time 497:  Arrival: Overall Job:1, Job B:72, Processing Time 5
+Time 497:- Begin Processing Job:247, Job B:72 in CPU 4
+Time 497:  Queue: Empty; CPU 1 Run Time:2; CPU 2 Run Time:4; CPU 3 Run Time:1; CPU 4 Run Time:0
+Time 498:  Queue: Empty; CPU 1 Run Time:3; CPU 2 Run Time:5; CPU 3 Run Time:2; CPU 4 Run Time:1
+Time 499:  Complete Processing Job:246, Job A:100
+Time 499:  Queue: Empty; CPU 1 Run Time:4; CPU 2 Run Time:6; CPU 3 Idle Time:0; CPU 4 Run Time:2
+Time 500:  Arrival: Overall Job:1, Job A:101, Processing Time 1
+Time 500:  Complete Processing Job:244, Job D:27
+Time 500:- Begin Processing Job:248, Job A:101 in CPU 3
+Time 500:  Queue: Empty; CPU 1 Run Time:5; CPU 2 Idle Time:0; CPU 3 Run Time:0; CPU 4 Run Time:3
